@@ -1,22 +1,29 @@
-      ### IntelliJ IDEA ###
-      .idea/
-      *.iws
-      *.iml
-      *.ipr
-      out/
-      !**/src/main/**/out/
-      !**/src/test/**/out/
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-      ### NetBeans ###
-      /nbproject/private/
-      /nbbuild/
-      /dist/
-      /nbdist/
-      /.nb-gradle/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-      ### VS Code ###
-      .vscode/
+### VS Code ###
+.vscode/
 
-      # macOS
-      .DS_Store
-      **/.DS_Store
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Generated crawling / benchmark artifacts
+data/raw/
+data/db/
+data/reports/
+__pycache__/
+*.pyc
