@@ -1,0 +1,2775 @@
+{
+  "title": "아우터",
+  "screen_name": "SUB_CATEGORY_DEPARTMENT",
+  "view_event_logging": {},
+  "logging": {
+    "analytics": {
+      "SCREEN": "SUB_CATEGORY_DEPARTMENT",
+      "CATEGORY_SNO": "296",
+      "CATEGORY_NAME": "바람막이",
+      "FROM": "CATEGORY_DEPARTMENT"
+    },
+    "ably_only_log": {}
+  },
+  "components": [
+    {
+      "component_id": 23,
+      "type": {
+        "header": null,
+        "item_list": "FILTER_LIST",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [],
+        "footer": null,
+        "body": {
+          "radio": {
+            "view_type": "TAB",
+            "default_value": "16",
+            "selected_value": "497",
+            "fixed_toggle": null,
+            "fixed_toggles": null,
+            "query_name": "filter_sub_category_sno",
+            "possible_items": [
+              {
+                "query_value": "16",
+                "text": "가디건",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "0",
+                    "SUB_CATEGORY_SNO": "16"
+                  }
+                }
+              },
+              {
+                "query_value": "293",
+                "text": "자켓",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "1",
+                    "SUB_CATEGORY_SNO": "293"
+                  }
+                }
+              },
+              {
+                "query_value": "294",
+                "text": "집업/점퍼",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "2",
+                    "SUB_CATEGORY_SNO": "294"
+                  }
+                }
+              },
+              {
+                "query_value": "497",
+                "text": "바람막이",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "3",
+                    "SUB_CATEGORY_SNO": "497"
+                  }
+                }
+              },
+              {
+                "query_value": "296",
+                "text": "코트",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "4",
+                    "SUB_CATEGORY_SNO": "296"
+                  }
+                }
+              },
+              {
+                "query_value": "577",
+                "text": "플리스",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "5",
+                    "SUB_CATEGORY_SNO": "577"
+                  }
+                }
+              },
+              {
+                "query_value": "496",
+                "text": "야상",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "6",
+                    "SUB_CATEGORY_SNO": "496"
+                  }
+                }
+              },
+              {
+                "query_value": "297",
+                "text": "패딩",
+                "logging": {
+                  "analytics": {
+                    "TYPE": "SUB_CATEGORY_DEPARTMENT_TAB",
+                    "SELECTED_ITEM": "497",
+                    "INDEX": "7",
+                    "SUB_CATEGORY_SNO": "297"
+                  }
+                }
+              }
+            ],
+            "has_divider": null,
+            "has_new_badge": null
+          },
+          "chip": {
+            "refreshable": false,
+            "chip_list": [
+              {
+                "text": "오늘출발",
+                "image": "https://img.a-bly.com/icons/icon_brandicon_today_chip.png",
+                "logging_text": "오늘출발",
+                "is_selected": false,
+                "type": "toggle",
+                "query_name": "delivery_type_str",
+                "query_value": "fast"
+              },
+              {
+                "text": "브랜드",
+                "logging_text": "브랜드",
+                "is_selected": false,
+                "type": "toggle",
+                "query_name": "filter_market_type_sno",
+                "query_value": "6"
+              },
+              {
+                "text": "추천순",
+                "logging_text": "정렬",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDF9"
+              },
+              {
+                "text": "가격",
+                "logging_text": "가격",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDR9"
+              },
+              {
+                "text": "색상",
+                "logging_text": "색상",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDMxfQ=="
+              },
+              {
+                "text": "키·연령",
+                "logging_text": "키·연령",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDZ9"
+              },
+              {
+                "text": "소재",
+                "logging_text": "소재",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDEyfQ=="
+              },
+              {
+                "text": "핏",
+                "logging_text": "핏",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDEzfQ=="
+              },
+              {
+                "text": "계절",
+                "logging_text": "계절",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDE1fQ=="
+              },
+              {
+                "text": "안감",
+                "logging_text": "안감",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDE2fQ=="
+              },
+              {
+                "text": "상의기장",
+                "logging_text": "상의기장",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDE3fQ=="
+              },
+              {
+                "text": "소매길이",
+                "logging_text": "소매길이",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDE5fQ=="
+              },
+              {
+                "text": "패턴",
+                "logging_text": "패턴",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDIwfQ=="
+              },
+              {
+                "text": "넥라인",
+                "logging_text": "넥라인",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDIxfQ=="
+              },
+              {
+                "text": "디테일",
+                "logging_text": "디테일",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDI1fQ=="
+              },
+              {
+                "text": "스타일",
+                "logging_text": "스타일",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA3LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI0OTcifSwgInBhcmVudF9ncm91cF9pZCI6IDMwfQ=="
+              }
+            ],
+            "applied_query": {},
+            "has_divider": true
+          }
+        }
+      }
+    },
+    {
+      "component_id": 15,
+      "type": {
+        "header": "HEADLINE_SMALL_ONE_LINE",
+        "item_list": "GOODS_CAROUSEL",
+        "footer": null
+      },
+      "logging": {
+        "analytics": {
+          "LIST_ID": "category_department_rank_goods"
+        },
+        "ably_only_log": {
+          "list_id": "category_department_rank_goods"
+        }
+      },
+      "entity": {
+        "header": {
+          "item": {
+            "title": "실시간 바람막이 랭킹",
+            "deeplink": "ably://screens/?screen_name=COMPONENT_LIST&next_token=eyJsIjogMSwgInAiOiB7ImRlcGFydG1lbnRfdHlwZSI6ICJDQVRFR09SWSIsICJjYXRlZ29yeV9zbm8iOiA3LCAic3ViX2NhdGVnb3J5X3NubyI6IDQ5NywgInByZXZpb3VzX3NjcmVlbl9uYW1lIjogIlNVQl9DQVRFR09SWV9ERVBBUlRNRU5UIiwgImZpbHRlcl9jb21wb25lbnQiOiA2M30sICJjYXRlZ29yeV9zbm8iOiA3fQ==&category_sno=7",
+            "text": null
+          },
+          "logging": {}
+        },
+        "item_list": [
+          {
+            "item": {
+              "sno": 67239015,
+              "name": "[딸기우유🍓/밑단스트링] 텐노 하이넥 배색포켓 후드 바람막이",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/x8xImBrmcpg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2NkMTcxNzkwMGIzMGFiNjE4NjIwZjA4YTUwOThhNjI3LmdpZg",
+              "market_sno": 34446,
+              "market_name": "크림슈가",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 33,
+              "first_page_rendering": {
+                "goods_name": "[딸기우유🍓/밑단스트링] 텐노 하이넥 배색포켓 후드 바람막이",
+                "market_name": "크림슈가",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/EAQnHJ-wFtQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE5XzE3NzY2MTAxMjE3OTgwODNtLmpwZw",
+                "market_image": null,
+                "discount_rate": 33,
+                "original_price": 39000,
+                "price": 25840
+              },
+              "is_new": false,
+              "price": 25840,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67239015,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 0
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67239015?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cub538%5Cuae30%5Cuc6b0%5Cuc720%5Cud83c%5Cudf53%2F%5Cubc11%5Cub2e8%5Cuc2a4%5Cud2b8%5Cub9c1%5D%20%5Cud150%5Cub178%20%5Cud558%5Cuc774%5Cub125%20%5Cubc30%5Cuc0c9%5Cud3ec%5Cucf13%20%5Cud6c4%5Cub4dc%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%22%2C%20%22market_name%22%3A%20%22%5Cud06c%5Cub9bc%5Cuc288%5Cuac00%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FEAQnHJ-wFtQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE5XzE3NzY2MTAxMjE3OTgwODNtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2033%2C%20%22original_price%22%3A%2039000%2C%20%22price%22%3A%2025840%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 0,
+                "goods_sno": 67239015
+              },
+              "analytics": {
+                "GOODS_SNO": "67239015",
+                "GOODS_NAME": "[딸기우유🍓/밑단스트링] 텐노 하이넥 배색포켓 후드 바람막이",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "34446",
+                "MARKET_NAME": "크림슈가",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 33,
+                "SALES_PRICE": 25840,
+                "SALES_PRICE_RANGE": "25,001~30,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 2,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 705,
+                "LIKES_COUNT_RANGE": "701~750",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 0
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/x8xImBrmcpg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2NkMTcxNzkwMGIzMGFiNjE4NjIwZjA4YTUwOThhNjI3LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[딸기우유🍓/밑단스트링] 텐노 하이넥 배색포켓 후드 바람막이",
+                "price": "25,840",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "33%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "크림슈가",
+                "nudging_text": "133개 구매중",
+                "ranking": 1,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 66305139,
+              "name": "[고퀄🩵/신상할인] 썸머 라이트 윈드 블루종 (2color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/qYumPaJYjd0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzMwXzE3NzQ4ODI2MDUyNjM1NTJtLmdpZg",
+              "market_sno": 76344,
+              "market_name": "제이앤무드",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "discount_rate": 16,
+              "first_page_rendering": {
+                "goods_name": "[고퀄🩵/신상할인] 썸머 라이트 윈드 블루종 (2color)",
+                "market_name": "제이앤무드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/a_pcqn_jggw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzMwXzE3NzQ4ODI2MDU1MzgzNjNtLmpwZw",
+                "market_image": null,
+                "discount_rate": 16,
+                "original_price": 71210,
+                "price": 59210
+              },
+              "is_new": false,
+              "price": 59210,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 66305139,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 1
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/66305139?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuace0%5Cud004%5Cud83e%5Cude75%2F%5Cuc2e0%5Cuc0c1%5Cud560%5Cuc778%5D%20%5Cuc378%5Cuba38%20%5Cub77c%5Cuc774%5Cud2b8%20%5Cuc708%5Cub4dc%20%5Cube14%5Cub8e8%5Cuc885%20%282color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc81c%5Cuc774%5Cuc564%5Cubb34%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fa_pcqn_jggw%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzMwXzE3NzQ4ODI2MDU1MzgzNjNtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2016%2C%20%22original_price%22%3A%2071210%2C%20%22price%22%3A%2059210%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 1,
+                "goods_sno": 66305139
+              },
+              "analytics": {
+                "GOODS_SNO": "66305139",
+                "GOODS_NAME": "[고퀄🩵/신상할인] 썸머 라이트 윈드 블루종 (2color)",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "76344",
+                "MARKET_NAME": "제이앤무드",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 16,
+                "SALES_PRICE": 59210,
+                "SALES_PRICE_RANGE": "55,001~60,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 5,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 419,
+                "LIKES_COUNT_RANGE": "401~450",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 1
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/qYumPaJYjd0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzMwXzE3NzQ4ODI2MDUyNjM1NTJtLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[고퀄🩵/신상할인] 썸머 라이트 윈드 블루종 (2color)",
+                "price": "59,210",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "16%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "제이앤무드",
+                "nudging_text": "93개 구매중",
+                "ranking": 2,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 53330031,
+              "name": "💙신상/핫템💙마뗑킴 바람막이 남녀공용 로고 포인트 코튼 코팅 점퍼 블랙 커플 아우터",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/rBmVNcCUsSM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzdiYTgwYzM5NjA3ZGQwNWM2YmVkODgxZmEzMDE0OTgzLndlYnA",
+              "market_sno": 98770,
+              "market_name": "루피루피",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "today",
+              "discount_rate": 22,
+              "first_page_rendering": {
+                "goods_name": "💙신상/핫템💙마뗑킴 바람막이 남녀공용 로고 포인트 코튼 코팅 점퍼 블랙 커플 아우터",
+                "market_name": " 마뗑킴",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/jRJlJsM7bM0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwOTIxXzE3NTg0NTk2MzE4MzY2OTZtLmpwZw",
+                "market_image": null,
+                "discount_rate": 22,
+                "original_price": 219000,
+                "price": 169000
+              },
+              "is_new": false,
+              "price": 169000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 53330031,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 2
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/53330031?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cud83d%5Cudc99%5Cuc2e0%5Cuc0c1%2F%5Cud56b%5Cud15c%5Cud83d%5Cudc99%5Cub9c8%5Cub5d1%5Cud0b4%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cub0a8%5Cub140%5Cuacf5%5Cuc6a9%20%5Cub85c%5Cuace0%20%5Cud3ec%5Cuc778%5Cud2b8%20%5Cucf54%5Cud2bc%20%5Cucf54%5Cud305%20%5Cuc810%5Cud37c%20%5Cube14%5Cub799%20%5Cucee4%5Cud50c%20%5Cuc544%5Cuc6b0%5Cud130%22%2C%20%22market_name%22%3A%20%22%20%5Cub9c8%5Cub5d1%5Cud0b4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FjRJlJsM7bM0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwOTIxXzE3NTg0NTk2MzE4MzY2OTZtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2022%2C%20%22original_price%22%3A%20219000%2C%20%22price%22%3A%20169000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 2,
+                "goods_sno": 53330031
+              },
+              "analytics": {
+                "GOODS_SNO": "53330031",
+                "GOODS_NAME": "💙신상/핫템💙마뗑킴 바람막이 남녀공용 로고 포인트 코튼 코팅 점퍼 블랙 커플 아우터",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "98770",
+                "MARKET_NAME": "루피루피",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 22,
+                "SALES_PRICE": 169000,
+                "SALES_PRICE_RANGE": "165,001~170,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 7,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 85,
+                "LIKES_COUNT": 1032,
+                "LIKES_COUNT_RANGE": "1,001~1,050",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 2,
+                "BRAND_SNO": 4970,
+                "BRAND_NAME": "마뗑킴"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/rBmVNcCUsSM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzdiYTgwYzM5NjA3ZGQwNWM2YmVkODgxZmEzMDE0OTgzLndlYnA",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "💙신상/핫템💙마뗑킴 바람막이 남녀공용 로고 포인트 코튼 코팅 점퍼 블랙 커플 아우터",
+                "price": "169,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "22%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 마뗑킴",
+                "nudging_text": "235개 구매중",
+                "ranking": 3,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67773433,
+              "name": "나이키 우먼 NSW WR 루즈 우븐 바람막이 자켓 HJ1183-010",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/HHRQA9txA78/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlmMWQzMWRjYmEzYTBiZjRjYzgxOTljYzliZTgyODIxLnBuZw",
+              "market_sno": 25109,
+              "market_name": "올아이원트",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "standard",
+              "discount_rate": 36,
+              "first_page_rendering": {
+                "goods_name": "나이키 우먼 NSW WR 루즈 우븐 바람막이 자켓 HJ1183-010",
+                "market_name": " 나이키",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/fW-PBbmslgY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VjODcyNDhmNzc4YmQ5ZDgxY2MyOWRiMWU0ZmM3YTgwLnBuZw",
+                "market_image": null,
+                "discount_rate": 36,
+                "original_price": 99000,
+                "price": 62400
+              },
+              "is_new": false,
+              "price": 62400,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67773433,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 3
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67773433?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cub098%5Cuc774%5Cud0a4%20%5Cuc6b0%5Cuba3c%20NSW%20WR%20%5Cub8e8%5Cuc988%20%5Cuc6b0%5Cube10%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc790%5Cucf13%20HJ1183-010%22%2C%20%22market_name%22%3A%20%22%20%5Cub098%5Cuc774%5Cud0a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FfW-PBbmslgY%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VjODcyNDhmNzc4YmQ5ZDgxY2MyOWRiMWU0ZmM3YTgwLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2036%2C%20%22original_price%22%3A%2099000%2C%20%22price%22%3A%2062400%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 3,
+                "goods_sno": 67773433
+              },
+              "analytics": {
+                "GOODS_SNO": "67773433",
+                "GOODS_NAME": "나이키 우먼 NSW WR 루즈 우븐 바람막이 자켓 HJ1183-010",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "25109",
+                "MARKET_NAME": "올아이원트",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 36,
+                "SALES_PRICE": 62400,
+                "SALES_PRICE_RANGE": "60,001~65,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 42,
+                "LIKES_COUNT_RANGE": "1~50",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 3,
+                "BRAND_SNO": 1373,
+                "BRAND_NAME": "나이키"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/HHRQA9txA78/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlmMWQzMWRjYmEzYTBiZjRjYzgxOTljYzliZTgyODIxLnBuZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "나이키 우먼 NSW WR 루즈 우븐 바람막이 자켓 HJ1183-010",
+                "price": "62,400",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "36%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 나이키",
+                "nudging_text": "13개 구매중",
+                "ranking": 4,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 65012691,
+              "name": "[❤️‍🔥1+1할인/⚠️유사품주의⚠️/탄탄 고어텍스 소재 보장/M~XL/남녀공용 5colors] 고프코어 후드 바람막이 생활방수윈드 브레이커",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/pjme1M0QQdo/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3NzczOTcyNzUwMjkzNjJtLmdpZg",
+              "market_sno": 88944,
+              "market_name": "노티세이블",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "discount_rate": 40,
+              "first_page_rendering": {
+                "goods_name": "[❤️‍🔥1+1할인/⚠️유사품주의⚠️/탄탄 고어텍스 소재 보장/M~XL/남녀공용 5colors] 고프코어 후드 바람막이 생활방수윈드 브레이커",
+                "market_name": "노티세이블",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Bm2crTKXVdo/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3NzczOTcyNzU0OTUxMzFtLnBuZw",
+                "market_image": null,
+                "discount_rate": 40,
+                "original_price": 69900,
+                "price": 41900
+              },
+              "is_new": false,
+              "price": 41900,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 65012691,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 4
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/65012691?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cu2764%5Cufe0f%5Cu200d%5Cud83d%5Cudd251%2B1%5Cud560%5Cuc778%2F%5Cu26a0%5Cufe0f%5Cuc720%5Cuc0ac%5Cud488%5Cuc8fc%5Cuc758%5Cu26a0%5Cufe0f%2F%5Cud0c4%5Cud0c4%20%5Cuace0%5Cuc5b4%5Cud14d%5Cuc2a4%20%5Cuc18c%5Cuc7ac%20%5Cubcf4%5Cuc7a5%2FM~XL%2F%5Cub0a8%5Cub140%5Cuacf5%5Cuc6a9%205colors%5D%20%5Cuace0%5Cud504%5Cucf54%5Cuc5b4%20%5Cud6c4%5Cub4dc%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc0dd%5Cud65c%5Cubc29%5Cuc218%5Cuc708%5Cub4dc%20%5Cube0c%5Cub808%5Cuc774%5Cucee4%22%2C%20%22market_name%22%3A%20%22%5Cub178%5Cud2f0%5Cuc138%5Cuc774%5Cube14%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FBm2crTKXVdo%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3NzczOTcyNzU0OTUxMzFtLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2040%2C%20%22original_price%22%3A%2069900%2C%20%22price%22%3A%2041900%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 4,
+                "goods_sno": 65012691
+              },
+              "analytics": {
+                "GOODS_SNO": "65012691",
+                "GOODS_NAME": "[❤️‍🔥1+1할인/⚠️유사품주의⚠️/탄탄 고어텍스 소재 보장/M~XL/남녀공용 5colors] 고프코어 후드 바람막이 생활방수윈드 브레이커",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "88944",
+                "MARKET_NAME": "노티세이블",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 40,
+                "SALES_PRICE": 41900,
+                "SALES_PRICE_RANGE": "40,001~45,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 14,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 1267,
+                "LIKES_COUNT_RANGE": "1,251~1,300",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 4
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/pjme1M0QQdo/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3NzczOTcyNzUwMjkzNjJtLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[❤️‍🔥1+1할인/⚠️유사품주의⚠️/탄탄 고어텍스 소재 보장/M~XL/남녀공용 5colors] 고프코어 후드 바람막이 생활방수윈드 브레이커",
+                "price": "41,900",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "40%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "노티세이블",
+                "nudging_text": "391개 구매중",
+                "ranking": 5,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 64176485,
+              "name": "[🍏소장추천] 캐린 사선 지퍼 바람막이 스트링 후드 자켓 (5color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/mxMw5-OUy-E/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzk2OTE5YjE2Nzg2ZWRiM2E4NmUyOTAzMTdhMmZkYzA1LmdpZg",
+              "market_sno": 10085,
+              "market_name": "애니원모어",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "discount_rate": 25,
+              "first_page_rendering": {
+                "goods_name": "[🍏소장추천] 캐린 사선 지퍼 바람막이 스트링 후드 자켓 (5color)",
+                "market_name": "애니원모어",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/i1td3QrYH-U/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEwXzE3NzMxNDI3NzA1MTcwMTltLmpwZw",
+                "market_image": null,
+                "discount_rate": 25,
+                "original_price": 43000,
+                "price": 31920
+              },
+              "is_new": false,
+              "price": 31920,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 64176485,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 5
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/64176485?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cud83c%5Cudf4f%5Cuc18c%5Cuc7a5%5Cucd94%5Cucc9c%5D%20%5Cuce90%5Cub9b0%20%5Cuc0ac%5Cuc120%20%5Cuc9c0%5Cud37c%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cud6c4%5Cub4dc%20%5Cuc790%5Cucf13%20%285color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc560%5Cub2c8%5Cuc6d0%5Cubaa8%5Cuc5b4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fi1td3QrYH-U%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEwXzE3NzMxNDI3NzA1MTcwMTltLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2025%2C%20%22original_price%22%3A%2043000%2C%20%22price%22%3A%2031920%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 5,
+                "goods_sno": 64176485
+              },
+              "analytics": {
+                "GOODS_SNO": "64176485",
+                "GOODS_NAME": "[🍏소장추천] 캐린 사선 지퍼 바람막이 스트링 후드 자켓 (5color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "10085",
+                "MARKET_NAME": "애니원모어",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 25,
+                "SALES_PRICE": 31920,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 12,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 1811,
+                "LIKES_COUNT_RANGE": "1,801~1,850",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 5
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/mxMw5-OUy-E/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzk2OTE5YjE2Nzg2ZWRiM2E4NmUyOTAzMTdhMmZkYzA1LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[🍏소장추천] 캐린 사선 지퍼 바람막이 스트링 후드 자켓 (5color)",
+                "price": "31,920",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "25%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "애니원모어",
+                "nudging_text": "462개 구매중",
+                "ranking": 6,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67322716,
+              "name": "[5/14 이후 발송] 버터 투웨이 바람막이",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/a2trXvyfnMw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2JkMjgzZjg5YzVlNjc3M2M1OGYzNmRlZjZmNzQ1ZTFmLndlYnA",
+              "market_sno": 93153,
+              "market_name": "아르비이",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 0,
+              "first_page_rendering": {
+                "goods_name": "[5/14 이후 발송] 버터 투웨이 바람막이",
+                "market_name": "아르비이",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/2qloB96d6tk/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MDU4Mjk1MTAzODhtLmpwZw",
+                "market_image": null,
+                "discount_rate": 0,
+                "original_price": 36000,
+                "price": 36000
+              },
+              "is_new": false,
+              "price": 36000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67322716,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 6
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67322716?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B5%2F14%20%5Cuc774%5Cud6c4%20%5Cubc1c%5Cuc1a1%5D%20%5Cubc84%5Cud130%20%5Cud22c%5Cuc6e8%5Cuc774%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%22%2C%20%22market_name%22%3A%20%22%5Cuc544%5Cub974%5Cube44%5Cuc774%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F2qloB96d6tk%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MDU4Mjk1MTAzODhtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%2036000%2C%20%22price%22%3A%2036000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 6,
+                "goods_sno": 67322716
+              },
+              "analytics": {
+                "GOODS_SNO": "67322716",
+                "GOODS_NAME": "[5/14 이후 발송] 버터 투웨이 바람막이",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "93153",
+                "MARKET_NAME": "아르비이",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 0,
+                "SALES_PRICE": 36000,
+                "SALES_PRICE_RANGE": "35,001~40,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 1,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 604,
+                "LIKES_COUNT_RANGE": "601~650",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 6
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/a2trXvyfnMw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2JkMjgzZjg5YzVlNjc3M2M1OGYzNmRlZjZmNzQ1ZTFmLndlYnA",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[5/14 이후 발송] 버터 투웨이 바람막이",
+                "price": "36,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": null,
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "아르비이",
+                "nudging_text": "104개 구매중",
+                "ranking": 7,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 63707652,
+              "name": "리버시블 스티치 바람막이 6color",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/V_rpNLX_mVE/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlkZDdlOGUzZTgzNmZhOTIxYTc0MGZlNmZhNzkwZTUwLmdpZg",
+              "market_sno": 1269,
+              "market_name": "하트투",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 29,
+              "first_page_rendering": {
+                "goods_name": "리버시블 스티치 바람막이 6color",
+                "market_name": "하트투",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Ww_AWjmf_sI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzA0XzE3NzI2MDQwMjc2OTQ5MzNtLmpwZw",
+                "market_image": null,
+                "discount_rate": 29,
+                "original_price": 89000,
+                "price": 62310
+              },
+              "is_new": false,
+              "price": 62310,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 63707652,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 7
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/63707652?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cub9ac%5Cubc84%5Cuc2dc%5Cube14%20%5Cuc2a4%5Cud2f0%5Cuce58%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%206color%22%2C%20%22market_name%22%3A%20%22%5Cud558%5Cud2b8%5Cud22c%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FWw_AWjmf_sI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzA0XzE3NzI2MDQwMjc2OTQ5MzNtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2029%2C%20%22original_price%22%3A%2089000%2C%20%22price%22%3A%2062310%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 7,
+                "goods_sno": 63707652
+              },
+              "analytics": {
+                "GOODS_SNO": "63707652",
+                "GOODS_NAME": "리버시블 스티치 바람막이 6color",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "1269",
+                "MARKET_NAME": "하트투",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 29,
+                "SALES_PRICE": 62310,
+                "SALES_PRICE_RANGE": "60,001~65,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 29,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 82,
+                "LIKES_COUNT": 5063,
+                "LIKES_COUNT_RANGE": "5,051~5,100",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 7
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/V_rpNLX_mVE/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzlkZDdlOGUzZTgzNmZhOTIxYTc0MGZlNmZhNzkwZTUwLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "리버시블 스티치 바람막이 6color",
+                "price": "62,310",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "29%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "하트투",
+                "nudging_text": "779개 구매중",
+                "ranking": 8,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67446794,
+              "name": "에어리 라이트 바람막이 (4c)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/6L6Cq6R9LvY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxMTdhODVlZjhiYzIzZTc0MTRjNWJjNmRkNTIxOWQ4LmdpZg",
+              "market_sno": 68188,
+              "market_name": "희미한",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 7,
+              "first_page_rendering": {
+                "goods_name": "에어리 라이트 바람막이 (4c)",
+                "market_name": "희미한",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/bNIMgFIxgGs/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxMTdhODVlZjhiYzIzZTc0MTRjNWJjNmRkNTIxOWQ4LmdpZg",
+                "market_image": null,
+                "discount_rate": 7,
+                "original_price": 38000,
+                "price": 35340
+              },
+              "is_new": false,
+              "price": 35340,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67446794,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 8
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67446794?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuc5d0%5Cuc5b4%5Cub9ac%20%5Cub77c%5Cuc774%5Cud2b8%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%284c%29%22%2C%20%22market_name%22%3A%20%22%5Cud76c%5Cubbf8%5Cud55c%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FbNIMgFIxgGs%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxMTdhODVlZjhiYzIzZTc0MTRjNWJjNmRkNTIxOWQ4LmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%207%2C%20%22original_price%22%3A%2038000%2C%20%22price%22%3A%2035340%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 8,
+                "goods_sno": 67446794
+              },
+              "analytics": {
+                "GOODS_SNO": "67446794",
+                "GOODS_NAME": "에어리 라이트 바람막이 (4c)",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "68188",
+                "MARKET_NAME": "희미한",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 7,
+                "SALES_PRICE": 35340,
+                "SALES_PRICE_RANGE": "35,001~40,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 68,
+                "LIKES_COUNT_RANGE": "51~100",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 8
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/6L6Cq6R9LvY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UxMTdhODVlZjhiYzIzZTc0MTRjNWJjNmRkNTIxOWQ4LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "에어리 라이트 바람막이 (4c)",
+                "price": "35,340",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "7%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "희미한",
+                "nudging_text": "16개 구매중",
+                "ranking": 9,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 62931947,
+              "name": "🔥주문폭주🔥[아노락/고퀄]남녀공용 배색 아노락 후드 투웨이 바람막이 카고 와이드 스트링 롱팬츠 트레이닝 세트 셋업 간절기 봄 가을 커플룩 시밀러룩 힙 꾸안꾸 스트릿 캠핑룩 커플",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/enRko6eDHRI/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZhODBlMTJiNTIwYTUyMWVjZmFhZDZiYTZhNzFkMjhmLmdpZg",
+              "market_sno": 7197,
+              "market_name": "엄라이브",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "discount_rate": 17,
+              "first_page_rendering": {
+                "goods_name": "🔥주문폭주🔥[아노락/고퀄]남녀공용 배색 아노락 후드 투웨이 바람막이 카고 와이드 스트링 롱팬츠 트레이닝 세트 셋업 간절기 봄 가을 커플룩 시밀러룩 힙 꾸안꾸 스트릿 캠핑룩 커플",
+                "market_name": "엄라이브",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/d0zVUEjggAk/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMjIwXzE3NzE1ODU5NDc4NjgwODdtLnBuZw",
+                "market_image": null,
+                "discount_rate": 17,
+                "original_price": 55800,
+                "price": 45800
+              },
+              "is_new": false,
+              "price": 45800,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 62931947,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 9
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/62931947?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cud83d%5Cudd25%5Cuc8fc%5Cubb38%5Cud3ed%5Cuc8fc%5Cud83d%5Cudd25%5B%5Cuc544%5Cub178%5Cub77d%2F%5Cuace0%5Cud004%5D%5Cub0a8%5Cub140%5Cuacf5%5Cuc6a9%20%5Cubc30%5Cuc0c9%20%5Cuc544%5Cub178%5Cub77d%20%5Cud6c4%5Cub4dc%20%5Cud22c%5Cuc6e8%5Cuc774%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuce74%5Cuace0%20%5Cuc640%5Cuc774%5Cub4dc%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cub871%5Cud32c%5Cuce20%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cuc138%5Cud2b8%20%5Cuc14b%5Cuc5c5%20%5Cuac04%5Cuc808%5Cuae30%20%5Cubd04%20%5Cuac00%5Cuc744%20%5Cucee4%5Cud50c%5Cub8e9%20%5Cuc2dc%5Cubc00%5Cub7ec%5Cub8e9%20%5Cud799%20%5Cuafb8%5Cuc548%5Cuafb8%20%5Cuc2a4%5Cud2b8%5Cub9bf%20%5Cucea0%5Cud551%5Cub8e9%20%5Cucee4%5Cud50c%22%2C%20%22market_name%22%3A%20%22%5Cuc5c4%5Cub77c%5Cuc774%5Cube0c%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Fd0zVUEjggAk%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMjIwXzE3NzE1ODU5NDc4NjgwODdtLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2017%2C%20%22original_price%22%3A%2055800%2C%20%22price%22%3A%2045800%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 9,
+                "goods_sno": 62931947
+              },
+              "analytics": {
+                "GOODS_SNO": "62931947",
+                "GOODS_NAME": "🔥주문폭주🔥[아노락/고퀄]남녀공용 배색 아노락 후드 투웨이 바람막이 카고 와이드 스트링 롱팬츠 트레이닝 세트 셋업 간절기 봄 가을 커플룩 시밀러룩 힙 꾸안꾸 스트릿 캠핑룩 커플",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "7197",
+                "MARKET_NAME": "엄라이브",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 17,
+                "SALES_PRICE": 45800,
+                "SALES_PRICE_RANGE": "45,001~50,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 26,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 1030,
+                "LIKES_COUNT_RANGE": "1,001~1,050",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 9
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/enRko6eDHRI/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZhODBlMTJiNTIwYTUyMWVjZmFhZDZiYTZhNzFkMjhmLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "🔥주문폭주🔥[아노락/고퀄]남녀공용 배색 아노락 후드 투웨이 바람막이 카고 와이드 스트링 롱팬츠 트레이닝 세트 셋업 간절기 봄 가을 커플룩 시밀러룩 힙 꾸안꾸 스트릿 캠핑룩 커플",
+                "price": "45,800",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "17%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "엄라이브",
+                "nudging_text": "462개 구매중",
+                "ranking": 10,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 65209884,
+              "name": "(26SS/절개 디테일) 피콕 후드 바람막이 5C",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/8q2CKJCS6vQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2M4YTc4YjY0N2I1ZDJiYmQ5OGRmOTBjODc3ZmRiNGY0LmdpZg",
+              "market_sno": 67741,
+              "market_name": "이퀄",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 5,
+              "first_page_rendering": {
+                "goods_name": "(26SS/절개 디테일) 피콕 후드 바람막이 5C",
+                "market_name": "이퀄",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/ARvWwQYV0gw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzIxXzE3NzQwODQ4NTk5NTMyOTRtLmpwZWc",
+                "market_image": null,
+                "discount_rate": 5,
+                "original_price": 34900,
+                "price": 33150
+              },
+              "is_new": false,
+              "price": 33150,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 65209884,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 10
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/65209884?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%2826SS%2F%5Cuc808%5Cuac1c%20%5Cub514%5Cud14c%5Cuc77c%29%20%5Cud53c%5Cucf55%20%5Cud6c4%5Cub4dc%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%205C%22%2C%20%22market_name%22%3A%20%22%5Cuc774%5Cud004%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FARvWwQYV0gw%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzIxXzE3NzQwODQ4NTk5NTMyOTRtLmpwZWc%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%205%2C%20%22original_price%22%3A%2034900%2C%20%22price%22%3A%2033150%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 10,
+                "goods_sno": 65209884
+              },
+              "analytics": {
+                "GOODS_SNO": "65209884",
+                "GOODS_NAME": "(26SS/절개 디테일) 피콕 후드 바람막이 5C",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "67741",
+                "MARKET_NAME": "이퀄",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 5,
+                "SALES_PRICE": 33150,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 3,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 66,
+                "LIKES_COUNT": 241,
+                "LIKES_COUNT_RANGE": "201~250",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 10
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/8q2CKJCS6vQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2M4YTc4YjY0N2I1ZDJiYmQ5OGRmOTBjODc3ZmRiNGY0LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "(26SS/절개 디테일) 피콕 후드 바람막이 5C",
+                "price": "33,150",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "5%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "이퀄",
+                "nudging_text": "63개 구매중",
+                "ranking": 11,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 64167604,
+              "name": "나이키 시그니처 테크 풀집업 우븐 바람막이 자켓 3color",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/3AwpvwbYOqM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzMyNzE0ZjhiMzUyYWNkN2FjY2IwZGQ4ZGNjMzQ1MzBhLmpwZw",
+              "market_sno": 86099,
+              "market_name": "부티크서울",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "standard",
+              "discount_rate": 20,
+              "first_page_rendering": {
+                "goods_name": "나이키 시그니처 테크 풀집업 우븐 바람막이 자켓 3color",
+                "market_name": " 나이키",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/K99l6syu8_k/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEwXzE3NzMxMzc1OTkyNzQwMjVtLmpwZWc",
+                "market_image": null,
+                "discount_rate": 20,
+                "original_price": 199000,
+                "price": 159000
+              },
+              "is_new": false,
+              "price": 159000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 64167604,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 11
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/64167604?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cub098%5Cuc774%5Cud0a4%20%5Cuc2dc%5Cuadf8%5Cub2c8%5Cucc98%20%5Cud14c%5Cud06c%20%5Cud480%5Cuc9d1%5Cuc5c5%20%5Cuc6b0%5Cube10%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc790%5Cucf13%203color%22%2C%20%22market_name%22%3A%20%22%20%5Cub098%5Cuc774%5Cud0a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FK99l6syu8_k%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEwXzE3NzMxMzc1OTkyNzQwMjVtLmpwZWc%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2020%2C%20%22original_price%22%3A%20199000%2C%20%22price%22%3A%20159000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 11,
+                "goods_sno": 64167604
+              },
+              "analytics": {
+                "GOODS_SNO": "64167604",
+                "GOODS_NAME": "나이키 시그니처 테크 풀집업 우븐 바람막이 자켓 3color",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "86099",
+                "MARKET_NAME": "부티크서울",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 20,
+                "SALES_PRICE": 159000,
+                "SALES_PRICE_RANGE": "155,001~160,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 2,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 574,
+                "LIKES_COUNT_RANGE": "551~600",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 11,
+                "BRAND_SNO": 1373,
+                "BRAND_NAME": "나이키"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/3AwpvwbYOqM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzMyNzE0ZjhiMzUyYWNkN2FjY2IwZGQ4ZGNjMzQ1MzBhLmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "나이키 시그니처 테크 풀집업 우븐 바람막이 자켓 3color",
+                "price": "159,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "20%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 나이키",
+                "nudging_text": "107개 구매중",
+                "ranking": 12,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 65591427,
+              "name": "🧡매장정품🧡 나이키 러닝 자켓 드라이 핏 경량 바람막이 트레이닝 운동복",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/uV-JXjZSZ6E/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FmOGFhM2RkYTFiOWE2N2RkNGI5YTQxODUyMDdmOWQ4LndlYnA",
+              "market_sno": 98703,
+              "market_name": "브랜트리",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "standard",
+              "discount_rate": 9,
+              "first_page_rendering": {
+                "goods_name": "🧡매장정품🧡 나이키 러닝 자켓 드라이 핏 경량 바람막이 트레이닝 운동복",
+                "market_name": " 나이키",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/tk0LL3kvey8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDA4XzE3NzU2NTE5NDQxOTUzMDdtLmpwZw",
+                "market_image": null,
+                "discount_rate": 9,
+                "original_price": 101000,
+                "price": 91000
+              },
+              "is_new": false,
+              "price": 91000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 65591427,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 12
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/65591427?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cud83e%5Cudde1%5Cub9e4%5Cuc7a5%5Cuc815%5Cud488%5Cud83e%5Cudde1%20%5Cub098%5Cuc774%5Cud0a4%20%5Cub7ec%5Cub2dd%20%5Cuc790%5Cucf13%20%5Cub4dc%5Cub77c%5Cuc774%20%5Cud54f%20%5Cuacbd%5Cub7c9%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cud2b8%5Cub808%5Cuc774%5Cub2dd%20%5Cuc6b4%5Cub3d9%5Cubcf5%22%2C%20%22market_name%22%3A%20%22%20%5Cub098%5Cuc774%5Cud0a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2Ftk0LL3kvey8%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDA4XzE3NzU2NTE5NDQxOTUzMDdtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%209%2C%20%22original_price%22%3A%20101000%2C%20%22price%22%3A%2091000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 12,
+                "goods_sno": 65591427
+              },
+              "analytics": {
+                "GOODS_SNO": "65591427",
+                "GOODS_NAME": "🧡매장정품🧡 나이키 러닝 자켓 드라이 핏 경량 바람막이 트레이닝 운동복",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "98703",
+                "MARKET_NAME": "브랜트리",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 9,
+                "SALES_PRICE": 91000,
+                "SALES_PRICE_RANGE": "90,001~95,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 139,
+                "LIKES_COUNT_RANGE": "101~150",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 12,
+                "BRAND_SNO": 1373,
+                "BRAND_NAME": "나이키"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/uV-JXjZSZ6E/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FmOGFhM2RkYTFiOWE2N2RkNGI5YTQxODUyMDdmOWQ4LndlYnA",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "🧡매장정품🧡 나이키 러닝 자켓 드라이 핏 경량 바람막이 트레이닝 운동복",
+                "price": "91,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "9%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 나이키",
+                "nudging_text": "22개 구매중",
+                "ranking": 13,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67753753,
+              "name": "썸머 시젠 시스루 바람막이",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/7olizLbN9as/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzgzMTc3N2ZhZDZhZGE2YmNkYjEwMzk0NDZhMjg4YTIxLndlYnA",
+              "market_sno": 5731,
+              "market_name": "러브앤드팝",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "discount_rate": 20,
+              "first_page_rendering": {
+                "goods_name": "썸머 시젠 시스루 바람막이",
+                "market_name": "러브앤드팝",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/kInQ6p0DYes/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI0XzE3NzcwMDY3ODE0OTI0NjdtLmpwZw",
+                "market_image": null,
+                "discount_rate": 20,
+                "original_price": 38200,
+                "price": 30500
+              },
+              "is_new": false,
+              "price": 30500,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67753753,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 13
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67753753?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuc378%5Cuba38%20%5Cuc2dc%5Cuc820%20%5Cuc2dc%5Cuc2a4%5Cub8e8%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%22%2C%20%22market_name%22%3A%20%22%5Cub7ec%5Cube0c%5Cuc564%5Cub4dc%5Cud31d%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FkInQ6p0DYes%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI0XzE3NzcwMDY3ODE0OTI0NjdtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2020%2C%20%22original_price%22%3A%2038200%2C%20%22price%22%3A%2030500%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 13,
+                "goods_sno": 67753753
+              },
+              "analytics": {
+                "GOODS_SNO": "67753753",
+                "GOODS_NAME": "썸머 시젠 시스루 바람막이",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "5731",
+                "MARKET_NAME": "러브앤드팝",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 20,
+                "SALES_PRICE": 30500,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 29,
+                "LIKES_COUNT_RANGE": "1~50",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 13
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/7olizLbN9as/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzgzMTc3N2ZhZDZhZGE2YmNkYjEwMzk0NDZhMjg4YTIxLndlYnA",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "썸머 시젠 시스루 바람막이",
+                "price": "30,500",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "20%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "러브앤드팝",
+                "nudging_text": "6개 구매중",
+                "ranking": 14,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 53208191,
+              "name": "리트 오버 윈드 자켓 (4color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/A4LZFCVIJkg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzVhZjk5ZjIxMTE5ZWMwMjgxMzEwN2VlYzkyODEzZjEyLmdpZg",
+              "market_sno": 92128,
+              "market_name": "LOOFON",
+              "market_type": "쇼핑몰",
+              "delivery_type": "today",
+              "discount_rate": 23,
+              "first_page_rendering": {
+                "goods_name": "리트 오버 윈드 자켓 (4color)",
+                "market_name": "LOOFON",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Mpth-KVQuhc/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwOTE3XzE3NTgwOTg1NzQ0OTk2NDRtLmpwZw",
+                "market_image": null,
+                "discount_rate": 23,
+                "original_price": 56100,
+                "price": 42650
+              },
+              "is_new": false,
+              "price": 42650,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 53208191,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 14
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/53208191?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cub9ac%5Cud2b8%20%5Cuc624%5Cubc84%20%5Cuc708%5Cub4dc%20%5Cuc790%5Cucf13%20%284color%29%22%2C%20%22market_name%22%3A%20%22LOOFON%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FMpth-KVQuhc%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwOTE3XzE3NTgwOTg1NzQ0OTk2NDRtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2023%2C%20%22original_price%22%3A%2056100%2C%20%22price%22%3A%2042650%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 14,
+                "goods_sno": 53208191
+              },
+              "analytics": {
+                "GOODS_SNO": "53208191",
+                "GOODS_NAME": "리트 오버 윈드 자켓 (4color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "92128",
+                "MARKET_NAME": "LOOFON",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 23,
+                "SALES_PRICE": 42650,
+                "SALES_PRICE_RANGE": "40,001~45,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 787,
+                "REVIEW_COUNT_RANGE": "751~800",
+                "REVIEW_RATING": 98,
+                "LIKES_COUNT": 29755,
+                "LIKES_COUNT_RANGE": "29,751~29,800",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 14
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/A4LZFCVIJkg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzVhZjk5ZjIxMTE5ZWMwMjgxMzEwN2VlYzkyODEzZjEyLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "리트 오버 윈드 자켓 (4color)",
+                "price": "42,650",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "23%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "LOOFON",
+                "nudging_text": "7,632개 구매중",
+                "ranking": 15,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67795681,
+              "name": "[UNISEX][살안타템][장마템☁️] 포트 스트링 루즈핏 바람막이 후드 집업, 윈드브레이커 (5color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/RyJ7hLe4Ntw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q3NGQyNjc5MDZmMDU3MjQ2YWYzOWY5YWVkNzZmYzExLmdpZg",
+              "market_sno": 9287,
+              "market_name": "쇼퍼랜드",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "discount_rate": 10,
+              "first_page_rendering": {
+                "goods_name": "[UNISEX][살안타템][장마템☁️] 포트 스트링 루즈핏 바람막이 후드 집업, 윈드브레이커 (5color)",
+                "market_name": "쇼퍼랜드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/KPdSuGra3EE/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q3NGQyNjc5MDZmMDU3MjQ2YWYzOWY5YWVkNzZmYzExLmdpZg",
+                "market_image": null,
+                "discount_rate": 10,
+                "original_price": 43300,
+                "price": 38970
+              },
+              "is_new": false,
+              "price": 38970,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67795681,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 15
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67795681?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5BUNISEX%5D%5B%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%5D%5B%5Cuc7a5%5Cub9c8%5Cud15c%5Cu2601%5Cufe0f%5D%20%5Cud3ec%5Cud2b8%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cub8e8%5Cuc988%5Cud54f%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cud6c4%5Cub4dc%20%5Cuc9d1%5Cuc5c5%2C%20%5Cuc708%5Cub4dc%5Cube0c%5Cub808%5Cuc774%5Cucee4%20%285color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc1fc%5Cud37c%5Cub79c%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FKPdSuGra3EE%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q3NGQyNjc5MDZmMDU3MjQ2YWYzOWY5YWVkNzZmYzExLmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2010%2C%20%22original_price%22%3A%2043300%2C%20%22price%22%3A%2038970%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 15,
+                "goods_sno": 67795681
+              },
+              "analytics": {
+                "GOODS_SNO": "67795681",
+                "GOODS_NAME": "[UNISEX][살안타템][장마템☁️] 포트 스트링 루즈핏 바람막이 후드 집업, 윈드브레이커 (5color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "9287",
+                "MARKET_NAME": "쇼퍼랜드",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 10,
+                "SALES_PRICE": 38970,
+                "SALES_PRICE_RANGE": "35,001~40,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 187,
+                "LIKES_COUNT_RANGE": "151~200",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 15
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/RyJ7hLe4Ntw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q3NGQyNjc5MDZmMDU3MjQ2YWYzOWY5YWVkNzZmYzExLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[UNISEX][살안타템][장마템☁️] 포트 스트링 루즈핏 바람막이 후드 집업, 윈드브레이커 (5color)",
+                "price": "38,970",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "10%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "쇼퍼랜드",
+                "nudging_text": "50개 구매중",
+                "ranking": 16,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 18145109,
+              "name": "[기획/4계절,살안타템] *간절기 아우터* 샌디 에이리 오버핏 나일론 스트링 후드 바람막이 자켓 윈드브레이커 - 8color",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/9RxN1OdMxmY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2JlNGVjNDQ1M2YzN2M4OGM2ZmJmZTdmZmUyMDUwNDA0LmdpZg",
+              "market_sno": 2245,
+              "market_name": "키시",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "discount_rate": 24,
+              "first_page_rendering": {
+                "goods_name": "[기획/4계절,살안타템] *간절기 아우터* 샌디 에이리 오버핏 나일론 스트링 후드 바람막이 자켓 윈드브레이커 - 8color",
+                "market_name": "키시",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/yYY1z8gm5js/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQwNDIyXzE3MTM3Njk5MTU2NTc4MDJtLmpwZw",
+                "market_image": null,
+                "discount_rate": 24,
+                "original_price": 25900,
+                "price": 19430
+              },
+              "is_new": false,
+              "price": 19430,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 18145109,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 16
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/18145109?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuae30%5Cud68d%2F4%5Cuacc4%5Cuc808%2C%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%5D%20%2A%5Cuac04%5Cuc808%5Cuae30%20%5Cuc544%5Cuc6b0%5Cud130%2A%20%5Cuc0cc%5Cub514%20%5Cuc5d0%5Cuc774%5Cub9ac%20%5Cuc624%5Cubc84%5Cud54f%20%5Cub098%5Cuc77c%5Cub860%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cud6c4%5Cub4dc%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc790%5Cucf13%20%5Cuc708%5Cub4dc%5Cube0c%5Cub808%5Cuc774%5Cucee4%20-%208color%22%2C%20%22market_name%22%3A%20%22%5Cud0a4%5Cuc2dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FyYY1z8gm5js%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjQwNDIyXzE3MTM3Njk5MTU2NTc4MDJtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2024%2C%20%22original_price%22%3A%2025900%2C%20%22price%22%3A%2019430%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 16,
+                "goods_sno": 18145109
+              },
+              "analytics": {
+                "GOODS_SNO": "18145109",
+                "GOODS_NAME": "[기획/4계절,살안타템] *간절기 아우터* 샌디 에이리 오버핏 나일론 스트링 후드 바람막이 자켓 윈드브레이커 - 8color",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "2245",
+                "MARKET_NAME": "키시",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 24,
+                "SALES_PRICE": 19430,
+                "SALES_PRICE_RANGE": "15,001~20,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 2786,
+                "REVIEW_COUNT_RANGE": "2,751~2,800",
+                "REVIEW_RATING": 95,
+                "LIKES_COUNT": 24685,
+                "LIKES_COUNT_RANGE": "24,651~24,700",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 16
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/9RxN1OdMxmY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2JlNGVjNDQ1M2YzN2M4OGM2ZmJmZTdmZmUyMDUwNDA0LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[기획/4계절,살안타템] *간절기 아우터* 샌디 에이리 오버핏 나일론 스트링 후드 바람막이 자켓 윈드브레이커 - 8color",
+                "price": "19,430",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "24%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "키시",
+                "nudging_text": "16,330개 구매중",
+                "ranking": 17,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 44491099,
+              "name": "노스페이스 사이드패치 오리지널 바람막이 자켓 (2color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/nNsYIP4FDNc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VjZjJkZWJiZDM3ZDAyNjZiNGRmYWEwMTMzMGU5NzI3LmpwZw",
+              "market_sno": 86099,
+              "market_name": "부티크서울",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "standard",
+              "discount_rate": 18,
+              "first_page_rendering": {
+                "goods_name": "노스페이스 사이드패치 오리지널 바람막이 자켓 (2color)",
+                "market_name": " 노스페이스",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/WiryKleW4QI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNDA2XzE3NDM5NDM3Mzg5ODk5NDJtLmpwZWc",
+                "market_image": null,
+                "discount_rate": 18,
+                "original_price": 269000,
+                "price": 219000
+              },
+              "is_new": false,
+              "price": 219000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 44491099,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 17
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/44491099?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cub178%5Cuc2a4%5Cud398%5Cuc774%5Cuc2a4%20%5Cuc0ac%5Cuc774%5Cub4dc%5Cud328%5Cuce58%20%5Cuc624%5Cub9ac%5Cuc9c0%5Cub110%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc790%5Cucf13%20%282color%29%22%2C%20%22market_name%22%3A%20%22%20%5Cub178%5Cuc2a4%5Cud398%5Cuc774%5Cuc2a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FWiryKleW4QI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNDA2XzE3NDM5NDM3Mzg5ODk5NDJtLmpwZWc%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2018%2C%20%22original_price%22%3A%20269000%2C%20%22price%22%3A%20219000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 17,
+                "goods_sno": 44491099
+              },
+              "analytics": {
+                "GOODS_SNO": "44491099",
+                "GOODS_NAME": "노스페이스 사이드패치 오리지널 바람막이 자켓 (2color)",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "86099",
+                "MARKET_NAME": "부티크서울",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 18,
+                "SALES_PRICE": 219000,
+                "SALES_PRICE_RANGE": "215,001~220,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 33,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 4777,
+                "LIKES_COUNT_RANGE": "4,751~4,800",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 17,
+                "BRAND_SNO": 1322,
+                "BRAND_NAME": "노스페이스"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/nNsYIP4FDNc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2VjZjJkZWJiZDM3ZDAyNjZiNGRmYWEwMTMzMGU5NzI3LmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "노스페이스 사이드패치 오리지널 바람막이 자켓 (2color)",
+                "price": "219,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "18%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 노스페이스",
+                "nudging_text": "812개 구매중",
+                "ranking": 18,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67333340,
+              "name": "[러블리무드!여름바람막이/귀여운 도트 프릴후드 바람막이 후드집업 살안타템] 뮤아도트프릴후드바람막이",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/1zQNM_R7WvQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzYzMmEwOTVlYjJjYzg3MWViMTdiZWNmMTFhOTI3YTdjLmdpZg",
+              "market_sno": 37101,
+              "market_name": "프랑제이",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 12,
+              "first_page_rendering": {
+                "goods_name": "[러블리무드!여름바람막이/귀여운 도트 프릴후드 바람막이 후드집업 살안타템] 뮤아도트프릴후드바람막이",
+                "market_name": "프랑제이",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/fI7XlrTIpLg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MjA3NTg4ODkyNTJtLmpwZw",
+                "market_image": null,
+                "discount_rate": 12,
+                "original_price": 15900,
+                "price": 13900
+              },
+              "is_new": false,
+              "price": 13900,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67333340,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 18
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67333340?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cub7ec%5Cube14%5Cub9ac%5Cubb34%5Cub4dc%21%5Cuc5ec%5Cub984%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%2F%5Cuadc0%5Cuc5ec%5Cuc6b4%20%5Cub3c4%5Cud2b8%20%5Cud504%5Cub9b4%5Cud6c4%5Cub4dc%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cud6c4%5Cub4dc%5Cuc9d1%5Cuc5c5%20%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%5D%20%5Cubba4%5Cuc544%5Cub3c4%5Cud2b8%5Cud504%5Cub9b4%5Cud6c4%5Cub4dc%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%22%2C%20%22market_name%22%3A%20%22%5Cud504%5Cub791%5Cuc81c%5Cuc774%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FfI7XlrTIpLg%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MjA3NTg4ODkyNTJtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2012%2C%20%22original_price%22%3A%2015900%2C%20%22price%22%3A%2013900%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 18,
+                "goods_sno": 67333340
+              },
+              "analytics": {
+                "GOODS_SNO": "67333340",
+                "GOODS_NAME": "[러블리무드!여름바람막이/귀여운 도트 프릴후드 바람막이 후드집업 살안타템] 뮤아도트프릴후드바람막이",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "37101",
+                "MARKET_NAME": "프랑제이",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 12,
+                "SALES_PRICE": 13900,
+                "SALES_PRICE_RANGE": "10,001~15,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 2,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 347,
+                "LIKES_COUNT_RANGE": "301~350",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 18
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/1zQNM_R7WvQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzYzMmEwOTVlYjJjYzg3MWViMTdiZWNmMTFhOTI3YTdjLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[러블리무드!여름바람막이/귀여운 도트 프릴후드 바람막이 후드집업 살안타템] 뮤아도트프릴후드바람막이",
+                "price": "13,900",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "12%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "프랑제이",
+                "nudging_text": "132개 구매중",
+                "ranking": 19,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67327683,
+              "name": "[레드,블랙] 기획 경량 스트링 바람막이 점퍼",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/PpJTf_cqWBc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2IxYjhiYmU0MDViYTlmOWYwMTAzMGNhZDhjMGIwZjNmLmpwZw",
+              "market_sno": 101772,
+              "market_name": "에이치룸",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "discount_rate": 27,
+              "first_page_rendering": {
+                "goods_name": "[레드,블랙] 기획 경량 스트링 바람막이 점퍼",
+                "market_name": "에이치룸",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/URmA0CSLDB0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MTA5NTgyNDg4ODFtLmpwZw",
+                "market_image": null,
+                "discount_rate": 27,
+                "original_price": 36000,
+                "price": 26000
+              },
+              "is_new": false,
+              "price": 26000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67327683,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 19
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "바람막이",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67327683?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22SUB_CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cub808%5Cub4dc%2C%5Cube14%5Cub799%5D%20%5Cuae30%5Cud68d%20%5Cuacbd%5Cub7c9%20%5Cuc2a4%5Cud2b8%5Cub9c1%20%5Cubc14%5Cub78c%5Cub9c9%5Cuc774%20%5Cuc810%5Cud37c%22%2C%20%22market_name%22%3A%20%22%5Cuc5d0%5Cuc774%5Cuce58%5Cub8f8%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FURmA0CSLDB0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE3XzE3NzY0MTA5NTgyNDg4ODFtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2027%2C%20%22original_price%22%3A%2036000%2C%20%22price%22%3A%2026000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 19,
+                "goods_sno": 67327683
+              },
+              "analytics": {
+                "GOODS_SNO": "67327683",
+                "GOODS_NAME": "[레드,블랙] 기획 경량 스트링 바람막이 점퍼",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "101772",
+                "MARKET_NAME": "에이치룸",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이",
+                "STANDARD_CATEGORY_SNO": "11",
+                "STANDARD_CATEGORY_NAME": "바람막이",
+                "DISCOUNT_RATE": 27,
+                "SALES_PRICE": 26000,
+                "SALES_PRICE_RANGE": "25,001~30,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 68,
+                "LIKES_COUNT_RANGE": "51~100",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 19
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/PpJTf_cqWBc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2IxYjhiYmU0MDViYTlmOWYwMTAzMGNhZDhjMGIwZjNmLmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[레드,블랙] 기획 경량 스트링 바람막이 점퍼",
+                "price": "26,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "27%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "에이치룸",
+                "nudging_text": "26개 구매중",
+                "ranking": 20,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          }
+        ],
+        "footer": null,
+        "body": {
+          "item": {
+            "card_size": "MEDIUM",
+            "thumbnail_ratio": 1.2,
+            "radio": null,
+            "sub_radio": null,
+            "more_deeplink": null,
+            "information_card": null,
+            "banner": null,
+            "row_count": 1
+          },
+          "logging": {}
+        }
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 1,
+              "color": "#eeeeee"
+            },
+            "logging": {}
+          },
+          {
+            "item": {
+              "height": 7,
+              "color": "#f5f5f5"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 12,
+              "color": "#FFFFFF"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    }
+  ],
+  "next_token": "eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMjk2fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiAyOTYsICJsb2FkX2luZGV4IjogMX0=",
+  "should_defer_view_event": false,
+  "view_event_channels": [
+    "firebase",
+    "amplitude",
+    "braze",
+    "ablylog",
+    "facebook",
+    "appsflyer"
+  ]
+}

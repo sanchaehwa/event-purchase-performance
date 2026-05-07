@@ -1,0 +1,2969 @@
+{
+  "title": "아우터",
+  "screen_name": "CATEGORY_DEPARTMENT",
+  "view_event_logging": {},
+  "logging": {
+    "analytics": {
+      "SCREEN": "CATEGORY_DEPARTMENT",
+      "CATEGORY_SNO": "7",
+      "CATEGORY_NAME": "아우터",
+      "FROM": "CLOTHING_CATEGORY_DEPARTMENT"
+    },
+    "ably_only_log": {}
+  },
+  "components": [
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 16,
+              "color": "#FFFFFF"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 35,
+      "type": {
+        "header": null,
+        "item_list": "FIVE_COL_ICON_LIST",
+        "footer": null
+      },
+      "logging": {
+        "analytics": {
+          "LIST_ID": "five_col_icon_list"
+        },
+        "ably_only_log": {
+          "list_id": "five_col_icon_list"
+        }
+      },
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "name": "가디건",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/16.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMTZ9LCAiZCI6ICJDQVRFR09SWSIsICJwcmV2aW91c19zY3JlZW5fbmFtZSI6ICJDQVRFR09SWV9ERVBBUlRNRU5UIiwgImNhdGVnb3J5X3NubyI6IDE2fQ==",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "가디건",
+                "LIST_INDEX": 0,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "자켓",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/293.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMjkzfSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiAyOTN9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "자켓",
+                "LIST_INDEX": 1,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "293",
+                "CATEGORY_NAME": "자켓"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "집업/점퍼",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/294.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMjk0fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiAyOTR9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "집업/점퍼",
+                "LIST_INDEX": 2,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "294",
+                "CATEGORY_NAME": "집업/점퍼"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "바람막이",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/497.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNDk3fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiA0OTd9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "바람막이",
+                "LIST_INDEX": 3,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "497",
+                "CATEGORY_NAME": "바람막이"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "코트",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/296.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMjk2fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiAyOTZ9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "코트",
+                "LIST_INDEX": 4,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "296",
+                "CATEGORY_NAME": "코트"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "플리스",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/577.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNTc3fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiA1Nzd9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "플리스",
+                "LIST_INDEX": 5,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "577",
+                "CATEGORY_NAME": "플리스"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "야상",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/496.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogNDk2fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiA0OTZ9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "야상",
+                "LIST_INDEX": 6,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "496",
+                "CATEGORY_NAME": "야상"
+              }
+            }
+          },
+          {
+            "item": {
+              "name": "패딩",
+              "representative_image": "https://img.a-bly.com/categories/four_col_sub/297.jpg",
+              "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMjk3fSwgImQiOiAiQ0FURUdPUlkiLCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJjYXRlZ29yeV9zbm8iOiAyOTd9",
+              "badge": null
+            },
+            "logging": {
+              "analytics": {
+                "NAME": "패딩",
+                "LIST_INDEX": 7,
+                "CATEGORY_DEPTH": "1",
+                "CATEGORY_SNO": "297",
+                "CATEGORY_NAME": "패딩"
+              }
+            }
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 1,
+              "color": "#EEEEEE"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 1,
+              "color": "#eeeeee"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 7,
+              "color": "#f5f5f5"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 15,
+      "type": {
+        "header": "HEADLINE_SMALL_ONE_LINE",
+        "item_list": "GOODS_CAROUSEL",
+        "footer": null
+      },
+      "logging": {
+        "analytics": {
+          "LIST_ID": "category_department_rank_goods"
+        },
+        "ably_only_log": {
+          "list_id": "category_department_rank_goods"
+        }
+      },
+      "entity": {
+        "header": {
+          "item": {
+            "title": "실시간 아우터 랭킹",
+            "deeplink": "ably://screens/?screen_name=COMPONENT_LIST&next_token=eyJsIjogMSwgInAiOiB7ImRlcGFydG1lbnRfdHlwZSI6ICJDQVRFR09SWSIsICJjYXRlZ29yeV9zbm8iOiA3LCAicHJldmlvdXNfc2NyZWVuX25hbWUiOiAiQ0FURUdPUllfREVQQVJUTUVOVCIsICJmaWx0ZXJfY29tcG9uZW50IjogNjN9LCAiY2F0ZWdvcnlfc25vIjogN30=&category_sno=7",
+            "text": null
+          },
+          "logging": {}
+        },
+        "item_list": [
+          {
+            "item": {
+              "sno": 67333036,
+              "name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/jFBJVymkYIY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+              "market_sno": 9287,
+              "market_name": "쇼퍼랜드",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 3499,
+              "discount_rate": 15,
+              "first_page_rendering": {
+                "goods_name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                "market_name": "쇼퍼랜드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/iL6Jt6vMunI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+                "market_image": null,
+                "discount_rate": 15,
+                "original_price": 18400,
+                "price": 15640
+              },
+              "is_new": false,
+              "price": 15640,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67333036,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 0
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67333036?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc0b4%5Cuc548%5Cud0c0%5D%5B%5Cuc5ec%5Cub984%5D%5B%5Cuc5ec%5Cub9ac%5Cuc2ac%5Cub9bc%5Cud54f%5Cud83e%5Cudd0d%5D%20%5Cubaa8%5Cub2dd%20%5Cuc378%5Cuba38%20%5Cuc5ec%5Cub9ac%20%5Cuace8%5Cuc9c0%20%5Cuac00%5Cub514%5Cuac74%20%284color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc1fc%5Cud37c%5Cub79c%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FiL6Jt6vMunI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2015%2C%20%22original_price%22%3A%2018400%2C%20%22price%22%3A%2015640%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 0,
+                "goods_sno": 67333036
+              },
+              "analytics": {
+                "GOODS_SNO": "67333036",
+                "GOODS_NAME": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "9287",
+                "MARKET_NAME": "쇼퍼랜드",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 15,
+                "SALES_PRICE": 15640,
+                "SALES_PRICE_RANGE": "15,001~20,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 40,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 97,
+                "LIKES_COUNT": 7687,
+                "LIKES_COUNT_RANGE": "7,651~7,700",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [
+                  10
+                ],
+                "EMBLEM_COUNT": 1,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 0
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/jFBJVymkYIY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                "price": "15,640",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "15%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [
+                  {
+                    "image_url": "https://img.a-bly.com/data/goods/emblem/e0752739-8b5c-415d-80f5-06bf6aaf3dfd_1777016282270633405.png"
+                  }
+                ],
+                "chips": [],
+                "store_text": "쇼퍼랜드",
+                "nudging_text": "3,499개 구매중",
+                "ranking": 1,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 66861540,
+              "name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/MkNb-Q-MT4g/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+              "market_sno": 97862,
+              "market_name": "바이유어리",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 2307,
+              "discount_rate": 15,
+              "first_page_rendering": {
+                "goods_name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                "market_name": "바이유어리",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/DdhkXwFfB-0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+                "market_image": null,
+                "discount_rate": 15,
+                "original_price": 25900,
+                "price": 22010
+              },
+              "is_new": false,
+              "price": 22010,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 66861540,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 1
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/66861540?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%20%5Cud314%5Cub69d%5Cucee4%5Cubc84%5Cu2702%5Cufe0f%5Cuad70%5Cuc0b4%5Cuc0ad%5Cuc81c%20%5D%20%5Cucf54%5Cuc9c0%20%5Cubc84%5Cud2bc%20%5Cuace8%5Cuc9c0%20%5Cuac00%5Cub514%5Cuac74%20%5Cuc5ec%5Cub984%20%5Cuc544%5Cuc6b0%5Cud130%20%5Cuc0b4%5Cuc548%5Cud0c0%20%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%20%5Cuc587%5Cuc740%5Cuae34%5Cud314%20-%207colors%22%2C%20%22market_name%22%3A%20%22%5Cubc14%5Cuc774%5Cuc720%5Cuc5b4%5Cub9ac%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FDdhkXwFfB-0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2015%2C%20%22original_price%22%3A%2025900%2C%20%22price%22%3A%2022010%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 1,
+                "goods_sno": 66861540
+              },
+              "analytics": {
+                "GOODS_SNO": "66861540",
+                "GOODS_NAME": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "97862",
+                "MARKET_NAME": "바이유어리",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 15,
+                "SALES_PRICE": 22010,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 11,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 4897,
+                "LIKES_COUNT_RANGE": "4,851~4,900",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 1
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/MkNb-Q-MT4g/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                "price": "22,010",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "15%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "바이유어리",
+                "nudging_text": "2,307개 구매중",
+                "ranking": 2,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 49736912,
+              "name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/X5q31oXG4xc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNmMmY5MzE1ZjIwY2EyYTQ0MWVkZWVhNGQ2NDBhZWM2LmpwZw",
+              "market_sno": 86502,
+              "market_name": "Closets",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "sell_count": 2186,
+              "discount_rate": 36,
+              "first_page_rendering": {
+                "goods_name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                "market_name": "Closets",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/gS8gNUllnX8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzE0XzE3NTI0OTM5NjU5ODIyODltLmpwZw",
+                "market_image": null,
+                "discount_rate": 36,
+                "original_price": 31650,
+                "price": 19950
+              },
+              "is_new": false,
+              "price": 19950,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 49736912,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 2
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/49736912?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22Hina%20Tencel%20Long%20Cardigan%20%5Cud788%5Cub098%20%5Cud150%5Cuc140%20%5Cub871%20%5Cuac00%5Cub514%5Cuac74%22%2C%20%22market_name%22%3A%20%22Closets%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FgS8gNUllnX8%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzE0XzE3NTI0OTM5NjU5ODIyODltLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2036%2C%20%22original_price%22%3A%2031650%2C%20%22price%22%3A%2019950%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 2,
+                "goods_sno": 49736912
+              },
+              "analytics": {
+                "GOODS_SNO": "49736912",
+                "GOODS_NAME": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "86502",
+                "MARKET_NAME": "Closets",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 36,
+                "SALES_PRICE": 19950,
+                "SALES_PRICE_RANGE": "15,001~20,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 97,
+                "REVIEW_COUNT_RANGE": "51~100",
+                "REVIEW_RATING": 91,
+                "LIKES_COUNT": 9206,
+                "LIKES_COUNT_RANGE": "9,201~9,250",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 2
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/X5q31oXG4xc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNmMmY5MzE1ZjIwY2EyYTQ0MWVkZWVhNGQ2NDBhZWM2LmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                "price": "19,950",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "36%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "Closets",
+                "nudging_text": "2,186개 구매중",
+                "ranking": 3,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 66567055,
+              "name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/8WakWP2G3hk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFjZjA2YTU5YjBkOTI3NzgyMWM2ZTYxMGUzYTVlMmYzLmpwZw",
+              "market_sno": 113640,
+              "market_name": "닉켈하우스",
+              "market_type": "캐주얼 브랜드",
+              "delivery_type": "standard",
+              "sell_count": 2268,
+              "discount_rate": 16,
+              "first_page_rendering": {
+                "goods_name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                "market_name": " 닉켈하우스",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Moj_L-Sk1EA/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDAzXzE3NzUyMTIwNjk0OTMyNTNtLmpwZw",
+                "market_image": null,
+                "discount_rate": 16,
+                "original_price": 109000,
+                "price": 91500
+              },
+              "is_new": false,
+              "price": 91500,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 66567055,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 3
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "집업/점퍼",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/66567055?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cub124%5Cuc774%5Cube44%20%5Cuceec%5Cub7ec%205%5Cuc6d4%2011%5Cuc77c%20%5Cuc608%5Cuc57d%5Cubc30%5Cuc1a1%5D%5B%5Cuc815%5Cud488%5D%20NICKEL%2026%20DONKEY%20ZIP_UP%22%2C%20%22market_name%22%3A%20%22%20%5Cub2c9%5Cucf08%5Cud558%5Cuc6b0%5Cuc2a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FMoj_L-Sk1EA%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDAzXzE3NzUyMTIwNjk0OTMyNTNtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2016%2C%20%22original_price%22%3A%20109000%2C%20%22price%22%3A%2091500%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 3,
+                "goods_sno": 66567055
+              },
+              "analytics": {
+                "GOODS_SNO": "66567055",
+                "GOODS_NAME": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                "MARKET_TYPE": "캐주얼 브랜드",
+                "MARKET_SNO": "113640",
+                "MARKET_NAME": "닉켈하우스",
+                "CATEGORY_SNO": "294",
+                "CATEGORY_NAME": "집업/점퍼",
+                "STANDARD_CATEGORY_SNO": "6",
+                "STANDARD_CATEGORY_NAME": "집업",
+                "DISCOUNT_RATE": 16,
+                "SALES_PRICE": 91500,
+                "SALES_PRICE_RANGE": "90,001~95,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "12",
+                "REVIEW_COUNT": 28,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 16556,
+                "LIKES_COUNT_RANGE": "16,551~16,600",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 3,
+                "BRAND_SNO": 16667,
+                "BRAND_NAME": "닉켈하우스"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/8WakWP2G3hk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFjZjA2YTU5YjBkOTI3NzgyMWM2ZTYxMGUzYTVlMmYzLmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                "price": "91,500",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "16%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 닉켈하우스",
+                "nudging_text": "2,268개 구매중",
+                "ranking": 4,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 47618788,
+              "name": "[NEW컬러🎨][라운드VER][여름][살안타] 썸머 루즈핏 비스코스 슬라브 라운드 니트 가디건 (9color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/_nGq_CyOzwg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY1NzYyYzIwZDU1NTQ1ZTFjNzU2Mzk4Nzk1MjYyNTQ3LmdpZg",
+              "market_sno": 9287,
+              "market_name": "쇼퍼랜드",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 1734,
+              "discount_rate": 15,
+              "first_page_rendering": {
+                "goods_name": "[NEW컬러🎨][라운드VER][여름][살안타] 썸머 루즈핏 비스코스 슬라브 라운드 니트 가디건 (9color)",
+                "market_name": "쇼퍼랜드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/itpHeRguizg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY1NzYyYzIwZDU1NTQ1ZTFjNzU2Mzk4Nzk1MjYyNTQ3LmdpZg",
+                "market_image": null,
+                "discount_rate": 15,
+                "original_price": 23900,
+                "price": 20310
+              },
+              "is_new": false,
+              "price": 20310,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 47618788,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 4
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/47618788?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5BNEW%5Cuceec%5Cub7ec%5Cud83c%5Cudfa8%5D%5B%5Cub77c%5Cuc6b4%5Cub4dcVER%5D%5B%5Cuc5ec%5Cub984%5D%5B%5Cuc0b4%5Cuc548%5Cud0c0%5D%20%5Cuc378%5Cuba38%20%5Cub8e8%5Cuc988%5Cud54f%20%5Cube44%5Cuc2a4%5Cucf54%5Cuc2a4%20%5Cuc2ac%5Cub77c%5Cube0c%20%5Cub77c%5Cuc6b4%5Cub4dc%20%5Cub2c8%5Cud2b8%20%5Cuac00%5Cub514%5Cuac74%20%289color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc1fc%5Cud37c%5Cub79c%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FitpHeRguizg%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY1NzYyYzIwZDU1NTQ1ZTFjNzU2Mzk4Nzk1MjYyNTQ3LmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2015%2C%20%22original_price%22%3A%2023900%2C%20%22price%22%3A%2020310%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 4,
+                "goods_sno": 47618788
+              },
+              "analytics": {
+                "GOODS_SNO": "47618788",
+                "GOODS_NAME": "[NEW컬러🎨][라운드VER][여름][살안타] 썸머 루즈핏 비스코스 슬라브 라운드 니트 가디건 (9color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "9287",
+                "MARKET_NAME": "쇼퍼랜드",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 15,
+                "SALES_PRICE": 20310,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 158,
+                "REVIEW_COUNT_RANGE": "151~200",
+                "REVIEW_RATING": 97,
+                "LIKES_COUNT": 5286,
+                "LIKES_COUNT_RANGE": "5,251~5,300",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 4
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/_nGq_CyOzwg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY1NzYyYzIwZDU1NTQ1ZTFjNzU2Mzk4Nzk1MjYyNTQ3LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[NEW컬러🎨][라운드VER][여름][살안타] 썸머 루즈핏 비스코스 슬라브 라운드 니트 가디건 (9color)",
+                "price": "20,310",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "15%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "쇼퍼랜드",
+                "nudging_text": "1,734개 구매중",
+                "ranking": 5,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67192618,
+              "name": "[국내생산고퀄리티] made 프리미엄 엔드 슬릿 트위드 자켓",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/YganZ80od9I/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFmMDMxOTdhOGRjMjgwMzFjMzQ5ZjAwNGZmMGU3YjJjLmdpZg",
+              "market_sno": 10368,
+              "market_name": "베니토",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 115,
+              "discount_rate": 20,
+              "first_page_rendering": {
+                "goods_name": "[국내생산고퀄리티] made 프리미엄 엔드 슬릿 트위드 자켓",
+                "market_name": "베니토",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/gTb93sWKxi0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE0XzE3NzYxMzM1NTU3OTk4OTJtLmpwZw",
+                "market_image": null,
+                "discount_rate": 20,
+                "original_price": 115000,
+                "price": 92000
+              },
+              "is_new": false,
+              "price": 92000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67192618,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 5
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "자켓",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67192618?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuad6d%5Cub0b4%5Cuc0dd%5Cuc0b0%5Cuace0%5Cud004%5Cub9ac%5Cud2f0%5D%20made%20%5Cud504%5Cub9ac%5Cubbf8%5Cuc5c4%20%5Cuc5d4%5Cub4dc%20%5Cuc2ac%5Cub9bf%20%5Cud2b8%5Cuc704%5Cub4dc%20%5Cuc790%5Cucf13%22%2C%20%22market_name%22%3A%20%22%5Cubca0%5Cub2c8%5Cud1a0%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FgTb93sWKxi0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE0XzE3NzYxMzM1NTU3OTk4OTJtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2020%2C%20%22original_price%22%3A%20115000%2C%20%22price%22%3A%2092000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 5,
+                "goods_sno": 67192618
+              },
+              "analytics": {
+                "GOODS_SNO": "67192618",
+                "GOODS_NAME": "[국내생산고퀄리티] made 프리미엄 엔드 슬릿 트위드 자켓",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "10368",
+                "MARKET_NAME": "베니토",
+                "CATEGORY_SNO": "293",
+                "CATEGORY_NAME": "자켓",
+                "STANDARD_CATEGORY_SNO": "4",
+                "STANDARD_CATEGORY_NAME": "자켓",
+                "DISCOUNT_RATE": 20,
+                "SALES_PRICE": 92000,
+                "SALES_PRICE_RANGE": "90,001~95,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 1,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 441,
+                "LIKES_COUNT_RANGE": "401~450",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 5
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/YganZ80od9I/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFmMDMxOTdhOGRjMjgwMzFjMzQ5ZjAwNGZmMGU3YjJjLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[국내생산고퀄리티] made 프리미엄 엔드 슬릿 트위드 자켓",
+                "price": "92,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "20%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "베니토",
+                "nudging_text": "115개 구매중",
+                "ranking": 6,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67851462,
+              "name": "[MD추천/슬림핏🖤] 시호 데일리 후드 집업 - 4color",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/048TM6hfCtA/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc5NTM2ZTJkZDhmYzUxZTRkNDRhMTlmOWYzZGQzNmQxLmdpZg",
+              "market_sno": 1162,
+              "market_name": "모디무드",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 152,
+              "discount_rate": 30,
+              "first_page_rendering": {
+                "goods_name": "[MD추천/슬림핏🖤] 시호 데일리 후드 집업 - 4color",
+                "market_name": "모디무드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/FPItixHhCAY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc5NTM2ZTJkZDhmYzUxZTRkNDRhMTlmOWYzZGQzNmQxLmdpZg",
+                "market_image": null,
+                "discount_rate": 30,
+                "original_price": 39700,
+                "price": 27620
+              },
+              "is_new": false,
+              "price": 27620,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67851462,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 6
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "집업/점퍼",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67851462?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5BMD%5Cucd94%5Cucc9c%2F%5Cuc2ac%5Cub9bc%5Cud54f%5Cud83d%5Cudda4%5D%20%5Cuc2dc%5Cud638%20%5Cub370%5Cuc77c%5Cub9ac%20%5Cud6c4%5Cub4dc%20%5Cuc9d1%5Cuc5c5%20-%204color%22%2C%20%22market_name%22%3A%20%22%5Cubaa8%5Cub514%5Cubb34%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FFPItixHhCAY%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc5NTM2ZTJkZDhmYzUxZTRkNDRhMTlmOWYzZGQzNmQxLmdpZg%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2030%2C%20%22original_price%22%3A%2039700%2C%20%22price%22%3A%2027620%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 6,
+                "goods_sno": 67851462
+              },
+              "analytics": {
+                "GOODS_SNO": "67851462",
+                "GOODS_NAME": "[MD추천/슬림핏🖤] 시호 데일리 후드 집업 - 4color",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "1162",
+                "MARKET_NAME": "모디무드",
+                "CATEGORY_SNO": "294",
+                "CATEGORY_NAME": "집업/점퍼",
+                "STANDARD_CATEGORY_SNO": "6",
+                "STANDARD_CATEGORY_NAME": "집업",
+                "DISCOUNT_RATE": 30,
+                "SALES_PRICE": 27620,
+                "SALES_PRICE_RANGE": "25,001~30,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 1,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 527,
+                "LIKES_COUNT_RANGE": "501~550",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": true,
+                "IMAGE_BADGE_LIST": [
+                  "ONLY_ABLY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 6
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/048TM6hfCtA/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc5NTM2ZTJkZDhmYzUxZTRkNDRhMTlmOWYzZGQzNmQxLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[MD추천/슬림핏🖤] 시호 데일리 후드 집업 - 4color",
+                "price": "27,620",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "30%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [
+                  {
+                    "type": "ONLY_ABLY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/lk7oDFuANYQ/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYWJseV9vbmx5LnBuZw",
+                    "image_width": 57,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "모디무드",
+                "nudging_text": "152개 구매중",
+                "ranking": 7,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 48773086,
+              "name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/4gT8WI4uEXg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YyZjJhM2QxYWJjNjRkMDRmYjk0NDViMGFhYWY3ZGYxLmdpZg",
+              "market_sno": 2466,
+              "market_name": "앤드모어",
+              "market_type": "셀럽",
+              "delivery_type": "shak",
+              "sell_count": 21339,
+              "discount_rate": 20,
+              "first_page_rendering": {
+                "goods_name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                "market_name": "앤드모어",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7sOgzAu8dkM/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzA0XzE3NTE1NTY0MjEyMDg5NjltLmpwZw",
+                "market_image": null,
+                "discount_rate": 20,
+                "original_price": 26900,
+                "price": 21500
+              },
+              "is_new": false,
+              "price": 21500,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 48773086,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 7
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/48773086?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc5ec%5Cub9ac%5Cuc5ec%5Cub9ac~%2F%5Cuc5ec%5Cub984%5Cud544%5Cuc218%5Cud15c%5Cu2600%5Cufe0f%5D%20%5Cuac00%5Cubccd%5Cuac8c%20%5Cud22d%20%5Cuac78%5Cuce58%5Cuae30%20%5Cuc88b%5Cuc740%2C%20%5Cub9b0%5Cub128%20%5Cuc378%5Cuba38%20%5Cuace8%5Cuc9c0%20%5Cuc2dc%5Cuc2a4%5Cub8e8%20%5Cub77c%5Cuc6b4%5Cub4dc%20%5Cud06c%5Cub86d%20%5Cub2c8%5Cud2b8%20%5Cuae34%5Cud314%5Cuac00%5Cub514%5Cuac74%20%285color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc564%5Cub4dc%5Cubaa8%5Cuc5b4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F7sOgzAu8dkM%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzA0XzE3NTE1NTY0MjEyMDg5NjltLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2020%2C%20%22original_price%22%3A%2026900%2C%20%22price%22%3A%2021500%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 7,
+                "goods_sno": 48773086
+              },
+              "analytics": {
+                "GOODS_SNO": "48773086",
+                "GOODS_NAME": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "2466",
+                "MARKET_NAME": "앤드모어",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 20,
+                "SALES_PRICE": 21500,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "shak",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 2561,
+                "REVIEW_COUNT_RANGE": "2,551~2,600",
+                "REVIEW_RATING": 95,
+                "LIKES_COUNT": 47878,
+                "LIKES_COUNT_RANGE": "47,851~47,900",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 7
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/4gT8WI4uEXg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YyZjJhM2QxYWJjNjRkMDRmYjk0NDViMGFhYWY3ZGYxLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                "price": "21,500",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "20%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "앤드모어",
+                "nudging_text": "21,339개 구매중",
+                "ranking": 8,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 22439813,
+              "name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/sfoDcCQi1B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjY4MDE1NzltLnBuZw",
+              "market_sno": 34926,
+              "market_name": "아모로소",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "sell_count": 37506,
+              "discount_rate": 17,
+              "first_page_rendering": {
+                "goods_name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                "market_name": "아모로소",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Y9kZISSIlxY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjcwOTg3ODhtLnBuZw",
+                "market_image": null,
+                "discount_rate": 17,
+                "original_price": 28000,
+                "price": 23150
+              },
+              "is_new": false,
+              "price": 23150,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 22439813,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 8
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/22439813?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22NEW%5Cuceec%5Cub7ec%5Cu2728%5B%5Cuac04%5Cuc808%5Cuae30%2F%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%5Cu2600%5Cufe0f%5D%20%5Cub9b4%5Cub9ac%20%5Cuc5ec%5Cub984%20%5Cuace8%5Cuc9c0%20%5Cub77c%5Cuc6b4%5Cub4dc%20%5Cuae34%5Cud314%20%5Cuac00%5Cub514%5Cuac74%20%286color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc544%5Cubaa8%5Cub85c%5Cuc18c%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FY9kZISSIlxY%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjcwOTg3ODhtLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2017%2C%20%22original_price%22%3A%2028000%2C%20%22price%22%3A%2023150%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 8,
+                "goods_sno": 22439813
+              },
+              "analytics": {
+                "GOODS_SNO": "22439813",
+                "GOODS_NAME": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "34926",
+                "MARKET_NAME": "아모로소",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 17,
+                "SALES_PRICE": 23150,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 4848,
+                "REVIEW_COUNT_RANGE": "4,801~4,850",
+                "REVIEW_RATING": 96,
+                "LIKES_COUNT": 94190,
+                "LIKES_COUNT_RANGE": "94,151~94,200",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 8
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/sfoDcCQi1B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjY4MDE1NzltLnBuZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                "price": "23,150",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "17%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "아모로소",
+                "nudging_text": "37,506개 구매중",
+                "ranking": 9,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67525477,
+              "name": "[여름하객룩추천🤍/여름살안타템🪡] 마로니 - set",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/buXa98GfxNU/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzcyYWExNzM0ZGNlMDU4NTE2ZjcxNjI4YWQyYTNhYmYwLmdpZg",
+              "market_sno": 7350,
+              "market_name": "영앤리치",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 272,
+              "discount_rate": 18,
+              "first_page_rendering": {
+                "goods_name": "[여름하객룩추천🤍/여름살안타템🪡] 마로니 - set",
+                "market_name": "영앤리치",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/apOH7uA-sg8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDIxXzE3NzY3NTYwNjc3Njg5NDBtLmpwZw",
+                "market_image": null,
+                "discount_rate": 18,
+                "original_price": 40200,
+                "price": 32730
+              },
+              "is_new": false,
+              "price": 32730,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67525477,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 9
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67525477?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc5ec%5Cub984%5Cud558%5Cuac1d%5Cub8e9%5Cucd94%5Cucc9c%5Cud83e%5Cudd0d%2F%5Cuc5ec%5Cub984%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%5Cud83e%5Cudea1%5D%20%5Cub9c8%5Cub85c%5Cub2c8%20-%20set%22%2C%20%22market_name%22%3A%20%22%5Cuc601%5Cuc564%5Cub9ac%5Cuce58%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FapOH7uA-sg8%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDIxXzE3NzY3NTYwNjc3Njg5NDBtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2018%2C%20%22original_price%22%3A%2040200%2C%20%22price%22%3A%2032730%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 9,
+                "goods_sno": 67525477
+              },
+              "analytics": {
+                "GOODS_SNO": "67525477",
+                "GOODS_NAME": "[여름하객룩추천🤍/여름살안타템🪡] 마로니 - set",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "7350",
+                "MARKET_NAME": "영앤리치",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 18,
+                "SALES_PRICE": 32730,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 2,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 929,
+                "LIKES_COUNT_RANGE": "901~950",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": true,
+                "IMAGE_BADGE_LIST": [
+                  "ONLY_ABLY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 9
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/buXa98GfxNU/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzcyYWExNzM0ZGNlMDU4NTE2ZjcxNjI4YWQyYTNhYmYwLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[여름하객룩추천🤍/여름살안타템🪡] 마로니 - set",
+                "price": "32,730",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "18%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [
+                  {
+                    "type": "ONLY_ABLY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/lk7oDFuANYQ/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYWJseV9vbmx5LnBuZw",
+                    "image_width": 57,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "영앤리치",
+                "nudging_text": "272개 구매중",
+                "ranking": 10,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 49312611,
+              "name": "[주문폭주/살안타] 마린롱버전* 라즈 오픈 숄 여리핏 롱 가디건",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/DEWms81jVw0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBkODg5ZGM3MTVhYTlhNWYyNDY5YmIxOTJhYWM2MjZhLmdpZg",
+              "market_sno": 53441,
+              "market_name": "selez",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "sell_count": 8910,
+              "discount_rate": 40,
+              "first_page_rendering": {
+                "goods_name": "[주문폭주/살안타] 마린롱버전* 라즈 오픈 숄 여리핏 롱 가디건",
+                "market_name": "selez",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Zr5LAq6kSSQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzA5XzE3NTIwNTU0Mjk5Njg5ODBtLnBuZw",
+                "market_image": null,
+                "discount_rate": 40,
+                "original_price": 33000,
+                "price": 19700
+              },
+              "is_new": false,
+              "price": 19700,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 49312611,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 10
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/49312611?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc8fc%5Cubb38%5Cud3ed%5Cuc8fc%2F%5Cuc0b4%5Cuc548%5Cud0c0%5D%20%5Cub9c8%5Cub9b0%5Cub871%5Cubc84%5Cuc804%2A%20%5Cub77c%5Cuc988%20%5Cuc624%5Cud508%20%5Cuc204%20%5Cuc5ec%5Cub9ac%5Cud54f%20%5Cub871%20%5Cuac00%5Cub514%5Cuac74%22%2C%20%22market_name%22%3A%20%22selez%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FZr5LAq6kSSQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzA5XzE3NTIwNTU0Mjk5Njg5ODBtLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2040%2C%20%22original_price%22%3A%2033000%2C%20%22price%22%3A%2019700%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 10,
+                "goods_sno": 49312611
+              },
+              "analytics": {
+                "GOODS_SNO": "49312611",
+                "GOODS_NAME": "[주문폭주/살안타] 마린롱버전* 라즈 오픈 숄 여리핏 롱 가디건",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "53441",
+                "MARKET_NAME": "selez",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 40,
+                "SALES_PRICE": 19700,
+                "SALES_PRICE_RANGE": "15,001~20,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 945,
+                "REVIEW_COUNT_RANGE": "901~950",
+                "REVIEW_RATING": 96,
+                "LIKES_COUNT": 19992,
+                "LIKES_COUNT_RANGE": "19,951~20,000",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 10
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/DEWms81jVw0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBkODg5ZGM3MTVhYTlhNWYyNDY5YmIxOTJhYWM2MjZhLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[주문폭주/살안타] 마린롱버전* 라즈 오픈 숄 여리핏 롱 가디건",
+                "price": "19,700",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "40%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "selez",
+                "nudging_text": "8,910개 구매중",
+                "ranking": 11,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 20857023,
+              "name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/8U8oSEsWtU4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzhmZjI4MjEwNWY3YTM0MjAwMWRjODJmODdmNGY4ZDZlLmdpZg",
+              "market_sno": 9287,
+              "market_name": "쇼퍼랜드",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 7833,
+              "discount_rate": 10,
+              "first_page_rendering": {
+                "goods_name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                "market_name": "쇼퍼랜드",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/RoHqtUXI4iQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3Nzc0NDExNjcwODc4NjltLmpwZw",
+                "market_image": null,
+                "discount_rate": 10,
+                "original_price": 23100,
+                "price": 20790
+              },
+              "is_new": false,
+              "price": 20790,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 20857023,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 11
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/20857023?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B3%5Cub9cc%5Cuc7a5%5Cub3cc%5Cud30c%5D%5B%5Cuc5ec%5Cub984%5D%5B%5Cuc0b4%5Cuc548%5Cud0c0%5D%20%5Cuc378%5Cuba38%20%5Cub8e8%5Cuc988%5Cud54f%20%5Cube44%5Cuc2a4%5Cucf54%5Cuc2a4%20%5Cuc2ac%5Cub77c%5Cube0c%20%5Cube0c%5Cuc774%5Cub125%20%5Cuac00%5Cub514%5Cuac74%20%2811color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc1fc%5Cud37c%5Cub79c%5Cub4dc%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FRoHqtUXI4iQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3Nzc0NDExNjcwODc4NjltLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2010%2C%20%22original_price%22%3A%2023100%2C%20%22price%22%3A%2020790%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 11,
+                "goods_sno": 20857023
+              },
+              "analytics": {
+                "GOODS_SNO": "20857023",
+                "GOODS_NAME": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "9287",
+                "MARKET_NAME": "쇼퍼랜드",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 10,
+                "SALES_PRICE": 20790,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 1099,
+                "REVIEW_COUNT_RANGE": "1,051~1,100",
+                "REVIEW_RATING": 94,
+                "LIKES_COUNT": 22279,
+                "LIKES_COUNT_RANGE": "22,251~22,300",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 11
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/8U8oSEsWtU4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzhmZjI4MjEwNWY3YTM0MjAwMWRjODJmODdmNGY4ZDZlLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                "price": "20,790",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "10%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "쇼퍼랜드",
+                "nudging_text": "7,833개 구매중",
+                "ranking": 12,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 65468860,
+              "name": "아디다스 아디컬러 클래식 파이어버드 트랙탑 져지 (KD8313)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/PUZoaWuRwj4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc2OTk1ZWIzMzRiOTk1NDlkZDhiN2QwYTI5MWRhMWUzLmpwZw",
+              "market_sno": 29866,
+              "market_name": "아디다스",
+              "market_type": "프리미엄 브랜드",
+              "delivery_type": "standard",
+              "sell_count": 82,
+              "discount_rate": 47,
+              "first_page_rendering": {
+                "goods_name": "아디다스 아디컬러 클래식 파이어버드 트랙탑 져지 (KD8313)",
+                "market_name": " 아디다스",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/_rN8Ehmf3Uw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc2OTk1ZWIzMzRiOTk1NDlkZDhiN2QwYTI5MWRhMWUzLmpwZw",
+                "market_image": null,
+                "discount_rate": 47,
+                "original_price": 149000,
+                "price": 78750
+              },
+              "is_new": false,
+              "price": 78750,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 65468860,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 12
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "자켓",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/65468860?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuc544%5Cub514%5Cub2e4%5Cuc2a4%20%5Cuc544%5Cub514%5Cuceec%5Cub7ec%20%5Cud074%5Cub798%5Cuc2dd%20%5Cud30c%5Cuc774%5Cuc5b4%5Cubc84%5Cub4dc%20%5Cud2b8%5Cub799%5Cud0d1%20%5Cuc838%5Cuc9c0%20%28KD8313%29%22%2C%20%22market_name%22%3A%20%22%20%5Cuc544%5Cub514%5Cub2e4%5Cuc2a4%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F_rN8Ehmf3Uw%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc2OTk1ZWIzMzRiOTk1NDlkZDhiN2QwYTI5MWRhMWUzLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2047%2C%20%22original_price%22%3A%20149000%2C%20%22price%22%3A%2078750%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 12,
+                "goods_sno": 65468860
+              },
+              "analytics": {
+                "GOODS_SNO": "65468860",
+                "GOODS_NAME": "아디다스 아디컬러 클래식 파이어버드 트랙탑 져지 (KD8313)",
+                "MARKET_TYPE": "프리미엄 브랜드",
+                "MARKET_SNO": "29866",
+                "MARKET_NAME": "아디다스",
+                "CATEGORY_SNO": "293",
+                "CATEGORY_NAME": "자켓",
+                "STANDARD_CATEGORY_SNO": "4",
+                "STANDARD_CATEGORY_NAME": "자켓",
+                "DISCOUNT_RATE": 47,
+                "SALES_PRICE": 78750,
+                "SALES_PRICE_RANGE": "75,001~80,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "16",
+                "REVIEW_COUNT": 40,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 97,
+                "LIKES_COUNT": 58,
+                "LIKES_COUNT_RANGE": "51~100",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 12,
+                "BRAND_SNO": 562,
+                "BRAND_NAME": "아디다스"
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS",
+                "PRICE_DESCRIPTION"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/PUZoaWuRwj4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzc2OTk1ZWIzMzRiOTk1NDlkZDhiN2QwYTI5MWRhMWUzLmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "아디다스 아디컬러 클래식 파이어버드 트랙탑 져지 (KD8313)",
+                "price": "78,750",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "47%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "<font color='#6093FC'>브랜드</font> 아디다스",
+                "nudging_text": "82개 구매중",
+                "ranking": 13,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": {
+                  "icon_url": "https://img.a-bly.com/data/goods/badge/icon_coupon_filled.png",
+                  "text": "쿠폰적용가"
+                },
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67197881,
+              "name": "(안사면후회📢따로코디O세트가격✨/가격미침/핏보장/(5color) [키치키치/레이스&리본&꽃무늬나시/얇은긴팔가디건/여름까지 입기좋은 가디건나시세트추천] 스록가디건세트",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/YHUd6ueTF4M/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ3MGJjZTNkNjNkNzdkODliNTU0YmYzMDkxMWY2N2EzLmdpZg",
+              "market_sno": 4817,
+              "market_name": "에이블린",
+              "market_type": "쇼핑몰",
+              "delivery_type": "today",
+              "sell_count": 72,
+              "discount_rate": 7,
+              "first_page_rendering": {
+                "goods_name": "(안사면후회📢따로코디O세트가격✨/가격미침/핏보장/(5color) [키치키치/레이스&리본&꽃무늬나시/얇은긴팔가디건/여름까지 입기좋은 가디건나시세트추천] 스록가디건세트",
+                "market_name": "에이블린",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/qLEyzuTBc6s/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE0XzE3NzYxNDU4MTM5NTczMzdtLmpwZw",
+                "market_image": null,
+                "discount_rate": 7,
+                "original_price": 19900,
+                "price": 18500
+              },
+              "is_new": false,
+              "price": 18500,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67197881,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 13
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67197881?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%28%5Cuc548%5Cuc0ac%5Cuba74%5Cud6c4%5Cud68c%5Cud83d%5Cudce2%5Cub530%5Cub85c%5Cucf54%5Cub514O%5Cuc138%5Cud2b8%5Cuac00%5Cuaca9%5Cu2728%2F%5Cuac00%5Cuaca9%5Cubbf8%5Cuce68%2F%5Cud54f%5Cubcf4%5Cuc7a5%2F%285color%29%20%5B%5Cud0a4%5Cuce58%5Cud0a4%5Cuce58%2F%5Cub808%5Cuc774%5Cuc2a4%26%5Cub9ac%5Cubcf8%26%5Cuaf43%5Cubb34%5Cub2ac%5Cub098%5Cuc2dc%2F%5Cuc587%5Cuc740%5Cuae34%5Cud314%5Cuac00%5Cub514%5Cuac74%2F%5Cuc5ec%5Cub984%5Cuae4c%5Cuc9c0%20%5Cuc785%5Cuae30%5Cuc88b%5Cuc740%20%5Cuac00%5Cub514%5Cuac74%5Cub098%5Cuc2dc%5Cuc138%5Cud2b8%5Cucd94%5Cucc9c%5D%20%5Cuc2a4%5Cub85d%5Cuac00%5Cub514%5Cuac74%5Cuc138%5Cud2b8%22%2C%20%22market_name%22%3A%20%22%5Cuc5d0%5Cuc774%5Cube14%5Cub9b0%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FqLEyzuTBc6s%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE0XzE3NzYxNDU4MTM5NTczMzdtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%207%2C%20%22original_price%22%3A%2019900%2C%20%22price%22%3A%2018500%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 13,
+                "goods_sno": 67197881
+              },
+              "analytics": {
+                "GOODS_SNO": "67197881",
+                "GOODS_NAME": "(안사면후회📢따로코디O세트가격✨/가격미침/핏보장/(5color) [키치키치/레이스&리본&꽃무늬나시/얇은긴팔가디건/여름까지 입기좋은 가디건나시세트추천] 스록가디건세트",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "4817",
+                "MARKET_NAME": "에이블린",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 7,
+                "SALES_PRICE": 18500,
+                "SALES_PRICE_RANGE": "15,001~20,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 222,
+                "LIKES_COUNT_RANGE": "201~250",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 13
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/YHUd6ueTF4M/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ3MGJjZTNkNjNkNzdkODliNTU0YmYzMDkxMWY2N2EzLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "(안사면후회📢따로코디O세트가격✨/가격미침/핏보장/(5color) [키치키치/레이스&리본&꽃무늬나시/얇은긴팔가디건/여름까지 입기좋은 가디건나시세트추천] 스록가디건세트",
+                "price": "18,500",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "7%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "에이블린",
+                "nudging_text": "72개 구매중",
+                "ranking": 14,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67266354,
+              "name": "[여름가디건🤍/여리핏] 브리즈 루즈 썸머 버튼 긴팔 가디건 (5color)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/y6ONbCJMDws/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE2XzE3NzYzMDYwODIxMjc5MDNtLmdpZg",
+              "market_sno": 34926,
+              "market_name": "아모로소",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "sell_count": 385,
+              "discount_rate": 27,
+              "first_page_rendering": {
+                "goods_name": "[여름가디건🤍/여리핏] 브리즈 루즈 썸머 버튼 긴팔 가디건 (5color)",
+                "market_name": "아모로소",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7r_R8rSynaQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE2XzE3NzYzMDYwODI0NjY5NjRtLnBuZw",
+                "market_image": null,
+                "discount_rate": 27,
+                "original_price": 35000,
+                "price": 25480
+              },
+              "is_new": false,
+              "price": 25480,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67266354,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 14
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67266354?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cuc5ec%5Cub984%5Cuac00%5Cub514%5Cuac74%5Cud83e%5Cudd0d%2F%5Cuc5ec%5Cub9ac%5Cud54f%5D%20%5Cube0c%5Cub9ac%5Cuc988%20%5Cub8e8%5Cuc988%20%5Cuc378%5Cuba38%20%5Cubc84%5Cud2bc%20%5Cuae34%5Cud314%20%5Cuac00%5Cub514%5Cuac74%20%285color%29%22%2C%20%22market_name%22%3A%20%22%5Cuc544%5Cubaa8%5Cub85c%5Cuc18c%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F7r_R8rSynaQ%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE2XzE3NzYzMDYwODI0NjY5NjRtLnBuZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2027%2C%20%22original_price%22%3A%2035000%2C%20%22price%22%3A%2025480%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 14,
+                "goods_sno": 67266354
+              },
+              "analytics": {
+                "GOODS_SNO": "67266354",
+                "GOODS_NAME": "[여름가디건🤍/여리핏] 브리즈 루즈 썸머 버튼 긴팔 가디건 (5color)",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "34926",
+                "MARKET_NAME": "아모로소",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 27,
+                "SALES_PRICE": 25480,
+                "SALES_PRICE_RANGE": "25,001~30,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 7,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 1359,
+                "LIKES_COUNT_RANGE": "1,351~1,400",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 14
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/y6ONbCJMDws/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE2XzE3NzYzMDYwODIxMjc5MDNtLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[여름가디건🤍/여리핏] 브리즈 루즈 썸머 버튼 긴팔 가디건 (5color)",
+                "price": "25,480",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "27%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "아모로소",
+                "nudging_text": "385개 구매중",
+                "ranking": 15,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 46062454,
+              "name": "[easeas made] New Tencel Cardigan",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/zUXAk3n8-wk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzg1OTYyODI1M2QwMDE5MDM2NTI1NGIwMTUzZjI4ODM5LmdpZg",
+              "market_sno": 32380,
+              "market_name": "이즈이즈",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 5026,
+              "discount_rate": 0,
+              "first_page_rendering": {
+                "goods_name": "[easeas made] New Tencel Cardigan",
+                "market_name": "이즈이즈",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7KIsPa8ivqI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNTA5XzE3NDY3NzgyMjU0MTExOTBtLmpwZw",
+                "market_image": null,
+                "discount_rate": 0,
+                "original_price": 35000,
+                "price": 35000
+              },
+              "is_new": false,
+              "price": 35000,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 46062454,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 15
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/46062454?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Beaseas%20made%5D%20New%20Tencel%20Cardigan%22%2C%20%22market_name%22%3A%20%22%5Cuc774%5Cuc988%5Cuc774%5Cuc988%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F7KIsPa8ivqI%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNTA5XzE3NDY3NzgyMjU0MTExOTBtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%2035000%2C%20%22price%22%3A%2035000%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 15,
+                "goods_sno": 46062454
+              },
+              "analytics": {
+                "GOODS_SNO": "46062454",
+                "GOODS_NAME": "[easeas made] New Tencel Cardigan",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "32380",
+                "MARKET_NAME": "이즈이즈",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 0,
+                "SALES_PRICE": 35000,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 384,
+                "REVIEW_COUNT_RANGE": "351~400",
+                "REVIEW_RATING": 96,
+                "LIKES_COUNT": 17569,
+                "LIKES_COUNT_RANGE": "17,551~17,600",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 15
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/zUXAk3n8-wk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzg1OTYyODI1M2QwMDE5MDM2NTI1NGIwMTUzZjI4ODM5LmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[easeas made] New Tencel Cardigan",
+                "price": "35,000",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": null,
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "이즈이즈",
+                "nudging_text": "5,026개 구매중",
+                "ranking": 16,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67246697,
+              "name": "[최다코디🕊️] 스카시 여리핏 루즈 니트 가디건 - cd",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/38kLWypw1Rw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ5ODFiOTY4NDM3OWU0ODM5ZTMzMjYzNzU2OGJlNjFmLmpwZWc",
+              "market_sno": 48792,
+              "market_name": "크치made",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "sell_count": 118,
+              "discount_rate": 14,
+              "first_page_rendering": {
+                "goods_name": "[최다코디🕊️] 스카시 여리핏 루즈 니트 가디건 - cd",
+                "market_name": "크치made",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/YF8RUlUxDMw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE1XzE3NzYyNDMwMTg0NTAzNjVtLmpwZWc",
+                "market_image": null,
+                "discount_rate": 14,
+                "original_price": 39670,
+                "price": 33940
+              },
+              "is_new": false,
+              "price": 33940,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67246697,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 16
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67246697?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cucd5c%5Cub2e4%5Cucf54%5Cub514%5Cud83d%5Cudd4a%5Cufe0f%5D%20%5Cuc2a4%5Cuce74%5Cuc2dc%20%5Cuc5ec%5Cub9ac%5Cud54f%20%5Cub8e8%5Cuc988%20%5Cub2c8%5Cud2b8%20%5Cuac00%5Cub514%5Cuac74%20-%20cd%22%2C%20%22market_name%22%3A%20%22%5Cud06c%5Cuce58made%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FYF8RUlUxDMw%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDE1XzE3NzYyNDMwMTg0NTAzNjVtLmpwZWc%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%2014%2C%20%22original_price%22%3A%2039670%2C%20%22price%22%3A%2033940%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 16,
+                "goods_sno": 67246697
+              },
+              "analytics": {
+                "GOODS_SNO": "67246697",
+                "GOODS_NAME": "[최다코디🕊️] 스카시 여리핏 루즈 니트 가디건 - cd",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "48792",
+                "MARKET_NAME": "크치made",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 14,
+                "SALES_PRICE": 33940,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 0,
+                "REVIEW_COUNT_RANGE": "0",
+                "REVIEW_RATING": 0,
+                "LIKES_COUNT": 543,
+                "LIKES_COUNT_RANGE": "501~550",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 16
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/38kLWypw1Rw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ5ODFiOTY4NDM3OWU0ODM5ZTMzMjYzNzU2OGJlNjFmLmpwZWc",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[최다코디🕊️] 스카시 여리핏 루즈 니트 가디건 - cd",
+                "price": "33,940",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "14%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "크치made",
+                "nudging_text": "118개 구매중",
+                "ranking": 17,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 42835827,
+              "name": "봄여름가디건/전 컬러 당일🎉 [here you] 퍼지 모헤어 cardigan - 16color (봄니트/봄가디건/핑크/벚꽃룩/올리브/피크닉/나들이룩/살안타템/데이트룩)",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/OCAxlJ59PoY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2RiMTJhN2YzY2UyN2VmN2YzMGFlMTVmYmM1YTEyNzhlLmdpZg",
+              "market_sno": 38548,
+              "market_name": "유리에",
+              "market_type": "쇼핑몰",
+              "delivery_type": "standard",
+              "sell_count": 1268,
+              "discount_rate": 5,
+              "first_page_rendering": {
+                "goods_name": "봄여름가디건/전 컬러 당일🎉 [here you] 퍼지 모헤어 cardigan - 16color (봄니트/봄가디건/핑크/벚꽃룩/올리브/피크닉/나들이룩/살안타템/데이트룩)",
+                "market_name": "유리에",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7iJ5Mg8zdzM/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDMwXzE3Nzc1MTMzNTgzNjY2NThtLmpwZw",
+                "market_image": null,
+                "discount_rate": 5,
+                "original_price": 36800,
+                "price": 34960
+              },
+              "is_new": false,
+              "price": 34960,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 42835827,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 17
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/42835827?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cubd04%5Cuc5ec%5Cub984%5Cuac00%5Cub514%5Cuac74%2F%5Cuc804%20%5Cuceec%5Cub7ec%20%5Cub2f9%5Cuc77c%5Cud83c%5Cudf89%20%5Bhere%20you%5D%20%5Cud37c%5Cuc9c0%20%5Cubaa8%5Cud5e4%5Cuc5b4%20cardigan%20-%2016color%20%28%5Cubd04%5Cub2c8%5Cud2b8%2F%5Cubd04%5Cuac00%5Cub514%5Cuac74%2F%5Cud551%5Cud06c%2F%5Cubc9a%5Cuaf43%5Cub8e9%2F%5Cuc62c%5Cub9ac%5Cube0c%2F%5Cud53c%5Cud06c%5Cub2c9%2F%5Cub098%5Cub4e4%5Cuc774%5Cub8e9%2F%5Cuc0b4%5Cuc548%5Cud0c0%5Cud15c%2F%5Cub370%5Cuc774%5Cud2b8%5Cub8e9%29%22%2C%20%22market_name%22%3A%20%22%5Cuc720%5Cub9ac%5Cuc5d0%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F7iJ5Mg8zdzM%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDMwXzE3Nzc1MTMzNTgzNjY2NThtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%205%2C%20%22original_price%22%3A%2036800%2C%20%22price%22%3A%2034960%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 17,
+                "goods_sno": 42835827
+              },
+              "analytics": {
+                "GOODS_SNO": "42835827",
+                "GOODS_NAME": "봄여름가디건/전 컬러 당일🎉 [here you] 퍼지 모헤어 cardigan - 16color (봄니트/봄가디건/핑크/벚꽃룩/올리브/피크닉/나들이룩/살안타템/데이트룩)",
+                "MARKET_TYPE": "쇼핑몰",
+                "MARKET_SNO": "38548",
+                "MARKET_NAME": "유리에",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 5,
+                "SALES_PRICE": 34960,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "8",
+                "REVIEW_COUNT": 134,
+                "REVIEW_COUNT_RANGE": "101~150",
+                "REVIEW_RATING": 98,
+                "LIKES_COUNT": 4464,
+                "LIKES_COUNT_RANGE": "4,451~4,500",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 17
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/OCAxlJ59PoY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2RiMTJhN2YzY2UyN2VmN2YzMGFlMTVmYmM1YTEyNzhlLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "봄여름가디건/전 컬러 당일🎉 [here you] 퍼지 모헤어 cardigan - 16color (봄니트/봄가디건/핑크/벚꽃룩/올리브/피크닉/나들이룩/살안타템/데이트룩)",
+                "price": "34,960",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "5%",
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "유리에",
+                "nudging_text": "1,268개 구매중",
+                "ranking": 18,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 64073650,
+              "name": "잇힝 첫번째 랜덤박스! 고퀄상품 꽉 채워 드립니다. 여성의류 시즌오프 빈티지 모리걸 데일리룩 에겐녀 번따룩 모리걸 현체",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/uttWstZ6qtk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzVhYTBlYjkwNGRjNjNiODJhNjA5MTE3NjExMDNlZTg3LmpwZw",
+              "market_sno": 7311,
+              "market_name": "잇힝",
+              "market_type": "셀럽",
+              "delivery_type": "today",
+              "sell_count": 501,
+              "discount_rate": 5,
+              "first_page_rendering": {
+                "goods_name": "잇힝 첫번째 랜덤박스! 고퀄상품 꽉 채워 드립니다. 여성의류 시즌오프 빈티지 모리걸 데일리룩 에겐녀 번따룩 모리걸 현체",
+                "market_name": "잇힝",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/SxOr9fl6Pg0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEzXzE3NzMzNjczMzY1NDQyODBtLmpwZw",
+                "market_image": null,
+                "discount_rate": 5,
+                "original_price": 35000,
+                "price": 33250
+              },
+              "is_new": false,
+              "price": 33250,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 64073650,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 18
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "야상",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/64073650?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5Cuc787%5Cud79d%20%5Cuccab%5Cubc88%5Cuc9f8%20%5Cub79c%5Cub364%5Cubc15%5Cuc2a4%21%20%5Cuace0%5Cud004%5Cuc0c1%5Cud488%20%5Cuaf49%20%5Cucc44%5Cuc6cc%20%5Cub4dc%5Cub9bd%5Cub2c8%5Cub2e4.%20%5Cuc5ec%5Cuc131%5Cuc758%5Cub958%20%5Cuc2dc%5Cuc98c%5Cuc624%5Cud504%20%5Cube48%5Cud2f0%5Cuc9c0%20%5Cubaa8%5Cub9ac%5Cuac78%20%5Cub370%5Cuc77c%5Cub9ac%5Cub8e9%20%5Cuc5d0%5Cuac90%5Cub140%20%5Cubc88%5Cub530%5Cub8e9%20%5Cubaa8%5Cub9ac%5Cuac78%20%5Cud604%5Cuccb4%22%2C%20%22market_name%22%3A%20%22%5Cuc787%5Cud79d%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2FSxOr9fl6Pg0%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzEzXzE3NzMzNjczMzY1NDQyODBtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%205%2C%20%22original_price%22%3A%2035000%2C%20%22price%22%3A%2033250%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 18,
+                "goods_sno": 64073650
+              },
+              "analytics": {
+                "GOODS_SNO": "64073650",
+                "GOODS_NAME": "잇힝 첫번째 랜덤박스! 고퀄상품 꽉 채워 드립니다. 여성의류 시즌오프 빈티지 모리걸 데일리룩 에겐녀 번따룩 모리걸 현체",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "7311",
+                "MARKET_NAME": "잇힝",
+                "CATEGORY_SNO": "496",
+                "CATEGORY_NAME": "야상",
+                "STANDARD_CATEGORY_SNO": "10",
+                "STANDARD_CATEGORY_NAME": "야상",
+                "DISCOUNT_RATE": 5,
+                "SALES_PRICE": 33250,
+                "SALES_PRICE_RANGE": "30,001~35,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "today",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 91,
+                "REVIEW_COUNT_RANGE": "51~100",
+                "REVIEW_RATING": 93,
+                "LIKES_COUNT": 1017,
+                "LIKES_COUNT_RANGE": "1,001~1,050",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [
+                  "TODAY_DELIVERY"
+                ],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 18
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/uttWstZ6qtk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzVhYTBlYjkwNGRjNjNiODJhNjA5MTE3NjExMDNlZTg3LmpwZw",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "잇힝 첫번째 랜덤박스! 고퀄상품 꽉 채워 드립니다. 여성의류 시즌오프 빈티지 모리걸 데일리룩 에겐녀 번따룩 모리걸 현체",
+                "price": "33,250",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": "5%",
+                "closed_reason": null,
+                "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                "image_badge_width": 46,
+                "image_badge_height": 18,
+                "image_badge_list": [
+                  {
+                    "type": "TODAY_DELIVERY",
+                    "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                    "image_width": 46,
+                    "image_height": 18
+                  }
+                ],
+                "emblems": [],
+                "chips": [],
+                "store_text": "잇힝",
+                "nudging_text": "501개 구매중",
+                "ranking": 19,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          },
+          {
+            "item": {
+              "sno": 67879362,
+              "name": "[쿨톤베이지💛승모근커버]소프트 얇은 울 니트 숄카라 가디건",
+              "image": "https://d3ha2047wt6x28.cloudfront.net/KMncOVC4XBQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzA4MDI3ZTY1MjU2ODQ0NTg5MDhhNGVlZGUxZmI1MTJmLmdpZg",
+              "market_sno": 14498,
+              "market_name": "루엘르",
+              "market_type": "셀럽",
+              "delivery_type": "standard",
+              "sell_count": 124,
+              "discount_rate": 0,
+              "first_page_rendering": {
+                "goods_name": "[쿨톤베이지💛승모근커버]소프트 얇은 울 니트 숄카라 가디건",
+                "market_name": "루엘르",
+                "cover_image": "https://d3ha2047wt6x28.cloudfront.net/8m8ogpHnUa8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI1XzE3NzcxMjY1OTc1NTYxNTJtLmpwZw",
+                "market_image": null,
+                "discount_rate": 0,
+                "original_price": 21900,
+                "price": 21900
+              },
+              "is_new": false,
+              "price": 21900,
+              "expected_reward": null,
+              "like": {
+                "goods_sno": 67879362,
+                "is_liked": false,
+                "folder_sno": null,
+                "referrer": {
+                  "list_id": "category_department_rank_goods",
+                  "list_index": 19
+                }
+              },
+              "ad": null,
+              "on_return": null,
+              "category_name": "가디건",
+              "feedback_type": null,
+              "remote_deeplink": "https://m.a-bly.com/goods/67879362?list_id=category_department_rank_goods&logging_analytics=%7B%22FROM%22%3A%20%22CATEGORY_DEPARTMENT%22%7D&first_page_rendering=%7B%22goods_name%22%3A%20%22%5B%5Cucfe8%5Cud1a4%5Cubca0%5Cuc774%5Cuc9c0%5Cud83d%5Cudc9b%5Cuc2b9%5Cubaa8%5Cuadfc%5Cucee4%5Cubc84%5D%5Cuc18c%5Cud504%5Cud2b8%20%5Cuc587%5Cuc740%20%5Cuc6b8%20%5Cub2c8%5Cud2b8%20%5Cuc204%5Cuce74%5Cub77c%20%5Cuac00%5Cub514%5Cuac74%22%2C%20%22market_name%22%3A%20%22%5Cub8e8%5Cuc5d8%5Cub974%22%2C%20%22cover_image%22%3A%20%22https%3A%2F%2Fd3ha2047wt6x28.cloudfront.net%2F8m8ogpHnUa8%2Fpr%3AGOODS_DETAIL%2FczM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI1XzE3NzcxMjY1OTc1NTYxNTJtLmpwZw%22%2C%20%22market_image%22%3A%20null%2C%20%22discount_rate%22%3A%200%2C%20%22original_price%22%3A%2021900%2C%20%22price%22%3A%2021900%7D"
+            },
+            "logging": {
+              "ably_only_log": {
+                "schema_name": "Goods",
+                "list_id": "category_department_rank_goods",
+                "list_index": 19,
+                "goods_sno": 67879362
+              },
+              "analytics": {
+                "GOODS_SNO": "67879362",
+                "GOODS_NAME": "[쿨톤베이지💛승모근커버]소프트 얇은 울 니트 숄카라 가디건",
+                "MARKET_TYPE": "셀럽",
+                "MARKET_SNO": "14498",
+                "MARKET_NAME": "루엘르",
+                "CATEGORY_SNO": "16",
+                "CATEGORY_NAME": "가디건",
+                "STANDARD_CATEGORY_SNO": "3",
+                "STANDARD_CATEGORY_NAME": "가디건",
+                "DISCOUNT_RATE": 0,
+                "SALES_PRICE": 21900,
+                "SALES_PRICE_RANGE": "20,001~25,000",
+                "IS_NEW": "0",
+                "DELIVERY_TYPE": "standard",
+                "IS_AD": "0",
+                "LIST_PARAMS": null,
+                "MARKET_TYPE_SNO": "7",
+                "REVIEW_COUNT": 1,
+                "REVIEW_COUNT_RANGE": "1~50",
+                "REVIEW_RATING": 100,
+                "LIKES_COUNT": 356,
+                "LIKES_COUNT_RANGE": "351~400",
+                "PROMOTION_TAG": [],
+                "HAS_AWARD": false,
+                "IS_ONLY_ABLY": false,
+                "IMAGE_BADGE_LIST": [],
+                "EMBLEM_SNO": [],
+                "EMBLEM_COUNT": 0,
+                "IS_BLACK_FRIDAY": true,
+                "LIST_ID": "category_department_rank_goods",
+                "LIST_INDEX": 19
+              }
+            },
+            "render": {
+              "contents": [
+                "PRICE",
+                "NAME",
+                "STORE",
+                "NUDGING",
+                "CHIPS"
+              ],
+              "size": "MEDIUM",
+              "data": {
+                "image": {
+                  "url": "https://d3ha2047wt6x28.cloudfront.net/KMncOVC4XBQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzA4MDI3ZTY1MjU2ODQ0NTg5MDhhNGVlZGUxZmI1MTJmLmdpZg",
+                  "use_animation": true,
+                  "ratio": 1.2
+                },
+                "name": "[쿨톤베이지💛승모근커버]소프트 얇은 울 니트 숄카라 가디건",
+                "price": "21,900",
+                "has_ad_badge": false,
+                "name_lines": 1,
+                "discount_rate": null,
+                "closed_reason": null,
+                "image_badge": null,
+                "image_badge_width": null,
+                "image_badge_height": null,
+                "image_badge_list": [],
+                "emblems": [],
+                "chips": [],
+                "store_text": "루엘르",
+                "nudging_text": "124개 구매중",
+                "ranking": 20,
+                "actions": [
+                  "LIKE"
+                ],
+                "discount_end_text": null,
+                "top_nudging_text": null,
+                "price_description": null,
+                "today_delivery_order_deadline_time": null
+              }
+            }
+          }
+        ],
+        "footer": null,
+        "body": {
+          "item": {
+            "card_size": "MEDIUM",
+            "thumbnail_ratio": 1.2,
+            "radio": null,
+            "sub_radio": null,
+            "more_deeplink": null,
+            "information_card": null,
+            "banner": null,
+            "row_count": 1
+          },
+          "logging": {}
+        }
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 1,
+              "color": "#eeeeee"
+            },
+            "logging": {
+              "analytics": {}
+            }
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 7,
+              "color": "#f5f5f5"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    },
+    {
+      "component_id": 23,
+      "type": {
+        "header": null,
+        "item_list": "FILTER_LIST",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [],
+        "footer": null,
+        "body": {
+          "chip": {
+            "refreshable": false,
+            "chip_list": [
+              {
+                "text": "오늘출발",
+                "image": "https://img.a-bly.com/icons/icon_brandicon_today_chip.png",
+                "logging_text": "오늘출발",
+                "is_selected": false,
+                "type": "toggle",
+                "query_name": "delivery_type_str",
+                "query_value": "fast"
+              },
+              {
+                "text": "브랜드",
+                "logging_text": "브랜드",
+                "is_selected": false,
+                "type": "toggle",
+                "query_name": "filter_market_type_sno",
+                "query_value": "6"
+              },
+              {
+                "text": "추천순",
+                "logging_text": "정렬",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxfQ=="
+              },
+              {
+                "text": "가격",
+                "logging_text": "가격",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiA0fQ=="
+              },
+              {
+                "text": "색상",
+                "logging_text": "색상",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAzMX0="
+              },
+              {
+                "text": "키·연령",
+                "logging_text": "키·연령",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiA2fQ=="
+              },
+              {
+                "text": "소재",
+                "logging_text": "소재",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxMn0="
+              },
+              {
+                "text": "핏",
+                "logging_text": "핏",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxM30="
+              },
+              {
+                "text": "계절",
+                "logging_text": "계절",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxNX0="
+              },
+              {
+                "text": "안감",
+                "logging_text": "안감",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxNn0="
+              },
+              {
+                "text": "상의기장",
+                "logging_text": "상의기장",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxN30="
+              },
+              {
+                "text": "소매길이",
+                "logging_text": "소매길이",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAxOX0="
+              },
+              {
+                "text": "패턴",
+                "logging_text": "패턴",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAyMH0="
+              },
+              {
+                "text": "넥라인",
+                "logging_text": "넥라인",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAyMX0="
+              },
+              {
+                "text": "충전재",
+                "logging_text": "충전재",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAyMn0="
+              },
+              {
+                "text": "디테일",
+                "logging_text": "디테일",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAyNX0="
+              },
+              {
+                "text": "스타일",
+                "logging_text": "스타일",
+                "is_selected": false,
+                "filter_token": "eyJzY3JlZW5faWQiOiA2LCAiZml4ZWRfcXVlcnkiOiB7ImNhdGVnb3J5X3NubyI6ICI3In0sICJwYXJlbnRfZ3JvdXBfaWQiOiAzMH0="
+              }
+            ],
+            "applied_query": {},
+            "has_divider": true
+          }
+        }
+      }
+    },
+    {
+      "component_id": 2,
+      "type": {
+        "header": null,
+        "item_list": "DIVIDER",
+        "footer": null
+      },
+      "logging": {},
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "item": {
+              "height": 12,
+              "color": "#FFFFFF"
+            },
+            "logging": {}
+          }
+        ],
+        "footer": null
+      }
+    }
+  ],
+  "next_token": "eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogN30sICJkIjogIkNBVEVHT1JZIiwgImxpIjogMSwgImNhdGVnb3J5X3NubyI6IDcsICJwcmV2aW91c19zY3JlZW5fbmFtZSI6ICJDTE9USElOR19DQVRFR09SWV9ERVBBUlRNRU5UIiwgImxvYWRfZ29vZHMiOiBmYWxzZX0=",
+  "should_defer_view_event": false,
+  "view_event_channels": [
+    "firebase",
+    "amplitude",
+    "braze",
+    "ablylog",
+    "facebook",
+    "appsflyer"
+  ]
+}

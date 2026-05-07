@@ -1,0 +1,344 @@
+{
+  "goods": {
+    "likes_count": 4012,
+    "delivery_fee": 0,
+    "cover_images": [
+      "https://d3ha2047wt6x28.cloudfront.net/o2fmkpu2MS0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDA4XzE3NzU2MjE1MjA0OTAxNzdtLmpwZw",
+      "https://d3ha2047wt6x28.cloudfront.net/ihsU29V-Pcg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDA4XzE3NzU2MjE1MjUzNDM5MzhtLmpwZw"
+    ],
+    "is_new": false,
+    "is_open": true,
+    "is_soldout": false,
+    "is_buyable": true,
+    "is_accessible_detail": true,
+    "is_sale": false,
+    "is_premium_hotdeal": false,
+    "sell_count": 562,
+    "total_review_count": 2,
+    "positive_review_count": 2,
+    "positive_review_rate": 100,
+    "price": 33060,
+    "discount_rate": 22,
+    "image": "https://d3ha2047wt6x28.cloudfront.net/urnkt0iJu5o/pr:GOODS_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjMWZiZmI3OTViYjRhM2I2ZjkwZGExNjVhMDc1N2IxLndlYnA",
+    "image_webp": "https://d3ha2047wt6x28.cloudfront.net/GQJnWG1EvyI/pr:GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjMWZiZmI3OTViYjRhM2I2ZjkwZGExNjVhMDc1N2IxLndlYnA",
+    "image_ratio_with_one_point_two": "https://d3ha2047wt6x28.cloudfront.net/DHmtP5CzDTo/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjMWZiZmI3OTViYjRhM2I2ZjkwZGExNjVhMDc1N2IxLndlYnA",
+    "webview_image_ratio_with_one_point_two": "https://d3ha2047wt6x28.cloudfront.net/hpFflNZLKhE/pr:NEW_GOODS_THUMB_STILL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ZjMWZiZmI3OTViYjRhM2I2ZjkwZGExNjVhMDc1N2IxLndlYnA",
+    "sno": 66912259,
+    "name": "[간절기템]빈티지 체크 자수 반팔 셔츠 / 유니크 캐릭터 포인트 남방",
+    "sku_code": "31133-66912259",
+    "delivery_type": "standard",
+    "standard_category_sno": 14,
+    "market_sno": 31133,
+    "brand_sno": null,
+    "require_extra_body_field": 1,
+    "need_size_info": true,
+    "need_color_info": true,
+    "price_display_type": "PRICE_DISPLAY_TYPE_PERCENT",
+    "like": null,
+    "linked_option": {
+      "sno": 482206069,
+      "option_names": [
+        "블루",
+        "free"
+      ],
+      "original_price": 42900,
+      "price": 33060,
+      "is_soldout": false,
+      "point": 330,
+      "discount_rate": 22
+    },
+    "market": {
+      "sno": 31133,
+      "name": "더솔티드",
+      "introduce": null,
+      "instagram": "http://www.instagram.com/thesalted_",
+      "hash_tag": "#20대 #심플베이직 #캐주얼",
+      "hash_tag_list": [
+        "#20대",
+        "#심플베이직",
+        "#캐주얼"
+      ],
+      "age_tags": [
+        "#20대"
+      ],
+      "style_tags": [
+        "#심플베이직",
+        "#캐주얼"
+      ],
+      "badge": "https://d3ha2047wt6x28.cloudfront.net/n1VYBPkocHk/pr:MARKET_PROFILE_BADGE/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NTgzMjY2ODk3NTI2ODMuanBn",
+      "image": "https://d3ha2047wt6x28.cloudfront.net/AcpFJ1drcic/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NTgzMjY2ODk3NTI2ODMuanBn",
+      "banner": "https://d3ha2047wt6x28.cloudfront.net/e-TAcifwXuw/pr:MARKET_BANNER/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9iYW5uZXJfMTY3MjgwNzIxNjQzMDc1Ni5qcGc",
+      "favorite": null,
+      "models": [],
+      "new_goods_count": 1,
+      "market_client_display_type": 0,
+      "market_client_display_type_name": "셀럽",
+      "market_type": {
+        "sno": 7,
+        "name": "셀럽"
+      },
+      "goods_likes_count": 89449,
+      "goods_images": null,
+      "rank": null,
+      "last_rank": null,
+      "filtered_rank": null,
+      "favorites_count": 32366,
+      "purchasing_satisfaction_ratio": 95.98,
+      "trophies": [
+        {
+          "title": "반소매티셔츠 맛집",
+          "description": "반소매티셔츠 상품의 인기가 많아요",
+          "emoji": "👚",
+          "deeplink": null
+        }
+      ]
+    },
+    "standard_category": {
+      "sno": 14,
+      "name": "반소매티셔츠"
+    },
+    "category": {
+      "sno": 18,
+      "name": "반소매티셔츠",
+      "representative_image_url": "https://d3ha2047wt6x28.cloudfront.net/EIIWJklxNkw/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzY2ZGQ4NzI5M2M3ZjBiNGI2ZTcxNzIwMzE2ZjUxZTdkLmdpZg",
+      "depth": 1,
+      "deeplink": "ably://screens/?screen_name=SUB_CATEGORY_DEPARTMENT&next_token=eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJwIjogeyJkZXBhcnRtZW50X3R5cGUiOiAiQ0FURUdPUlkiLCAiY2F0ZWdvcnlfc25vIjogMTh9LCAiZCI6ICJDQVRFR09SWSIsICJjYXRlZ29yeV9zbm8iOiAxOH0="
+    },
+    "first_page_rendering": {
+      "goods_name": "[간절기템]빈티지 체크 자수 반팔 셔츠 / 유니크 캐릭터 포인트 남방",
+      "market_name": "더솔티드",
+      "cover_image": "https://d3ha2047wt6x28.cloudfront.net/o2fmkpu2MS0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDA4XzE3NzU2MjE1MjA0OTAxNzdtLmpwZw",
+      "market_image": "https://d3ha2047wt6x28.cloudfront.net/AcpFJ1drcic/pr:MARKET_PROFILE_THUMB/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2JyYW5kX2NhdGVnb3J5L21hcmtldF9wcm9maWxlXzE2NTgzMjY2ODk3NTI2ODMuanBn",
+      "discount_rate": 22,
+      "original_price": 42900,
+      "price": 33060
+    },
+    "ad": null,
+    "render": null,
+    "logging": {
+      "analytics": {}
+    },
+    "hash_tags": [
+      "꾸안꾸",
+      "빈티지무드",
+      "레이어드맛집",
+      "남녀공용룩",
+      "인생셔츠",
+      "소장템",
+      "데일리",
+      "데일리핏",
+      "체크남방",
+      "체크셔츠",
+      "간절기코디"
+    ],
+    "is_delivered_by_ably": false,
+    "text_option": null,
+    "option_names": [
+      "색상",
+      "사이즈"
+    ],
+    "size_html": "<!DOCTYPE html>\n  <html lang=\"en\">\n  <head>\n      <meta charset=\"UTF-8\">\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n      <script type=\"text/javascript\">\n        function listener(event) {\n          if (event.origin === \"https://m.a-bly.com\") {\n              document.getElementById(\"product-info-iframe\").style.height = event.data[\"height\"] + \"px\";\n          }\n        }\n\n        if (window.addEventListener) {\n          addEventListener(\"message\", listener, false);\n        } else {\n          attachEvent(\"onmessage\", listener);\n        }\n      </script>\n  </head>\n  <body>\n      <div style=\"position:absolute;width: 100%;height: 20px;background: white;z-index: 2;\"></div> <!--Divider안보이게 하려는 수작-->\n      <iframe id=\"product-info-iframe\" src=\"https://m.a-bly.com/goods/66912259/measurement\" frameborder=\"0\" style=\"width: 100%;\" scrolling=\"no\" ></iframe>\n  </body>\n</html>\n",
+    "detail_html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>상세정보</title>\n    <style>\n        html, body, div, span, applet, object, iframe,\n        h1, h2, h3, h4, h5, h6, p, blockquote, pre,\n        a, abbr, acronym, address, big, cite, code,\n        del, dfn, img, ins, kbd, q, s, samp,\n        small, strike, sub, sup, tt, var,\n        b, u, i, center,\n        dl, dt, dd,\n        fieldset, form, label, legend,\n        table, caption, tbody, tfoot, thead, tr, th, td,\n        article, aside, canvas, details, embed,\n        figure, figcaption, footer, header, hgroup,\n        menu, nav, output, ruby, section, summary,\n        time, mark, audio, video {\n            margin: 0;\n            padding: 0;\n            border: 0;\n            font-size: 100%;\n            font: inherit;\n            vertical-align: baseline;\n        }\n        /* HTML5 display-role reset for older browsers */\n        article, aside, details, figcaption, figure,\n        footer, header, hgroup, menu, nav, section {\n            display: block;\n        }\n        body {\n            line-height: 1;\n        }\n        blockquote, q {\n            quotes: none;\n        }\n        blockquote:before, blockquote:after,\n        q:before, q:after {\n            content: '';\n            content: none;\n        }\n        table {\n            border-collapse: collapse;\n            border-spacing: 0;\n        }\n        a {\n            color: inherit;\n            text-decoration: inherit;\n        }\n    </style>\n    <style>\n        .instagram-container {\n            padding: 25px 15px 0;\n        }\n        .detail-inner * {\n            max-width: 100% !important;\n        }\n        .detail-inner, .soldout-container {\n            padding: 25px 15px 0;\n            text-align: center;\n            font-family: Noto Sans;\n            font-size: 14px;\n            color: #000;\n            overflow: hidden;\n            /* margin-left: 15px;\n            margin-right: 15px; */\n        }\n        .detail-inner p {\n            margin-bottom: 0;\n            line-height: 20px;\n        }\n        .detail-inner div {\n            margin-bottom: 0;\n            line-height: 25px;\n        }\n        .detail-inner img, .soldout-container img, .saleheader-container img, .img-container img {\n            vertical-align: top;\n            width: 100%;\n            max-width: 100%;\n            height: auto;\n        }\n        .detail-inner div.se_sectionArea {\n            width: 100% !important;\n        }\n        .detail-inner div.se_editView, div.se_textView, .se_textarea {\n            width: 100% !important;\n        }\n        .detail-inner iframe[src*=\"youtube\"] {\n            width: 100%;\n            height: 56.25vw;\n        }\n        .saleheader-container, .img-container {\n            padding: 0px 0 0;\n            text-align: center;\n            font-family: Noto Sans;\n            font-size: 14px;\n            color: #000;\n        }\n    </style>\n    <script type=\"text/javascript\">\n        function listener(event) {\n            const allowedUrls = [\"a-bly.com\"];\n            const verified = allowedUrls.some((url) => event.origin.includes(url));\n            const height = event.data[\"height\"];\n            const iframeId = event.data[\"iframeId\"] ?? \"product-info-iframe\";\n            if (event.origin === \"https://m.a-bly.com\" || verified) {\n                if (typeof height === \"number\") {\n                    document.getElementById(iframeId).style.height = height + \"px\";\n                }\n            }\n        }\n\n        if (window.addEventListener){\n            addEventListener(\"message\", listener, false)\n        } else {\n            attachEvent(\"onmessage\", listener)\n        }\n\n      </script>\n</head>\n<body>\n    \n    \n        <div class=\"saleheader-container\">\n        \n            <p><a href=\"ably://webview?url=https://m.a-bly.com/events/434a3b99\"><img src=\"https://imgb.a-bly.com/data/editor/20260424_1777007014399880l.jpg\" class=\"fr-fic fr-dib\"></a></p><p><br></p>\n        \n            <p><a href=\"ably://webview?url=https://m.a-bly.com/events/98f7495b\"><img src=\"https://imgb.a-bly.com/data/editor/20260422_1776847584638762l.jpg\" class=\"fr-fic fr-dib\"></a></p><p><br></p>\n        \n            <p><img src=\"https://imgb.a-bly.com/data/editor/20211109_1636450616014691l.png\" class=\"fr-fic fr-dib\"></p>\n        \n        </div>\n    \n\n    \n\n    \n\n    \n        \n<div class=\"goods-notice-container detail-inner\">\n    <h1 data-end=\"85\" data-start=\"65\" style=\"text-align: center;\"><br></h1><p style=\"box-sizing: border-box; color: rgb(32, 36, 41); font-family: &quot;Noto Sans KR&quot;, &quot;Spoqa Han Sans&quot;, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"font-size: 12px;\"><strong>&nbsp;</strong></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><strong>🌸 구매 전 꼭 확인해주세요 🌸</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>🎥 검수 &amp; 배송</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">☑ 전 과정 꼼꼼하게 영상 녹화 진행</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">☑ 악의적 훼손/상품 누락은 🙅‍♀️ → 바로 반송 처리</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>🚚 배송 안내</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">💌 [오늘출발] 배지 상품 = 오후 2시 이전 결제 시 당일 출고</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">💌 평균 1~2일 후 도착 (택배사 일정에 따라 변동 가능)</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">💌 배송 완료 후 3일이 지나면 반품 불가</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>🔄 교환/반품 불가 케이스</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">❌ 탈취제·향수·집냄새 배임</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">❌ 착용 흔적 (늘어남, 오염)</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">- 단순 변심 발송 후 취소→ 착불 반송 처리</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>📸 하자/오배송 안내</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">📍 상품 수령 후 5일 이내 사진 + 에이블리 내 사전 문의 필수</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">📍 반품 접수 후 리뷰 작성 = 착용/사용으로 간주 → 반품 불가</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>✂️ 상품 특성</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">🌬 합성섬유 특유의 냄새 → 옷걸이에 걸어두면 자연 소멸</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">🌬 실밥, 초크 자국, 박음질 미세 불균형 → 불량 아님</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">💬 문의·상담</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">✨ 급한 주문은 꼭 사전 문의</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">✨ 문의 남겨주시면 최대 1시간 내 빠른 답변</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\"><strong>👉 합리적인 가격과 좋은 퀄리티를 위해 꼭 확인 후 구매 부탁드려요 💕</strong></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><hr><p><br></p>\n</div>\n\n\n    \n\n    \n\n    \n\n    \n        \n<div class=\"detail-inner\">\n    <p style=\"text-align: center;\"></p><p><br></p><p><strong><span style=\"font-size: 18px;\">5/7~9일 재입고되어 출고됩니다!!</span></strong></p><p><br></p><img src=\"https://d3ha2047wt6x28.cloudfront.net/uKDSgAeo56c/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU2MTg1MTY5NTM5bC5wbmc\" name=\"kling_20260408_IMAGE_20_________3001_0.jpg\" style=\"box-sizing: border-box; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Apple SD Gothic Neo&quot;, &quot;Noto Sans KR&quot;, &quot;Malgun Gothic&quot;, sans-serif; vertical-align: top; border-style: none; cursor: pointer; padding: 0px 1px; user-select: none; position: relative; max-width: 100%; color: rgb(65, 65, 65); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: block; margin: 5px auto;\" id=\"isPasted\"><p></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong><span style=\"font-size: 14px;\">빈티지 체크 자수 반팔 셔츠 / 유니크 캐릭터 포인트 남방 / 여름 꾸안꾸 루즈핏 셔츠</span></strong></p><p data-start=\"117\" data-end=\"171\" style=\"text-align: center;\"><br></p><p data-start=\"117\" data-end=\"171\" id=\"isPasted\" style=\"text-align: center;\"><span style=\"font-size: 12px;\">잔잔한 블루 체크 패턴에</span></p><p data-start=\"117\" data-end=\"171\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"130\" data-end=\"133\">귀여운 캐릭터 자수가 포인트로 들어간</span></p><p data-start=\"117\" data-end=\"171\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"153\" data-end=\"156\">감성 빈티지 무드 셔츠 💙</span></p><p data-start=\"173\" data-end=\"217\" style=\"text-align: center;\"><span style=\"font-size: 12px;\">과하지 않게 톡톡 들어간 자수 디테일이</span></p><p data-start=\"173\" data-end=\"217\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"194\" data-end=\"197\">입자마자 스타일 완성되는 아이템이에요</span></p><p data-start=\"173\" data-end=\"217\" style=\"text-align: center;\"><br></p><p data-start=\"219\" data-end=\"278\" style=\"text-align: center;\"><span style=\"font-size: 12px;\">여유있는 루즈핏으로</span></p><p data-start=\"219\" data-end=\"278\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"229\" data-end=\"232\">체형 구애 없이 편하게 착용 가능하고</span></p><p data-start=\"219\" data-end=\"278\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"252\" data-end=\"255\">가볍고 시원한 소재라 한여름까지 쭉 가능✔</span></p><p data-start=\"219\" data-end=\"278\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\">단독으로 입어도 포인트 되고</span></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"295\" data-end=\"298\">티셔츠 위에 가볍게 걸쳐도 힙한 느낌이라</span></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br data-start=\"320\" data-end=\"323\">데일리룩, 꾸안꾸룩으로 활용도 높아요</span></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\">#빈티지셔츠 #체크셔츠 #자수셔츠 #꾸안꾸룩 #여름셔츠 #루즈핏셔츠 #스트릿패션 #에이블리추천 #데일리룩 #캐주얼코디</span></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/xYTqK1Y2e8Y/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjY0NDA2Mjc0MDc4bC5qcGc\" name=\"제목-없음-1.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/xYTqK1Y2e8Y/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjY0NDA2Mjc0MDc4bC5qcGc\" style=\"display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;\"></span><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><br></span></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><br></p><p data-start=\"280\" data-end=\"343\" style=\"text-align: center;\"><span style=\"font-size: 12px;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/j9JciEtgw9g/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU2MTcxMTE3MDc2bC5wbmc\" name=\"d1 (플랫레이) (1).jpg\" style=\"box-sizing: border-box; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Apple SD Gothic Neo&quot;, &quot;Noto Sans KR&quot;, &quot;Malgun Gothic&quot;, sans-serif; vertical-align: top; border-style: none; cursor: pointer; padding: 0px 1px; user-select: none; position: relative; max-width: 100%; color: rgb(65, 65, 65); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: block; margin: 5px auto;\" id=\"isPasted\"></span><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">모델키 163 cm / 52kg&nbsp;&nbsp;</span></p><div style=\"text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/oOJorJxCwKM/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzQxMjUwNjQ3bC5qcGc\" name=\"kling_20260408_IMAGE_20_________2992_0.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/oOJorJxCwKM/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzQxMjUwNjQ3bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></div><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><div style=\"text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/BFwis58N2nw/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzQ5MDMxMjY0bC5qcGc\" name=\"d1.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/BFwis58N2nw/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzQ5MDMxMjY0bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/lV0q7_oBP3I/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzU0MjE1NjMzbC5qcGc\" name=\"d1 (플랫레이).jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/lV0q7_oBP3I/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzU0MjE1NjMzbC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/Dqea_CZjS6w/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzU4ODA4MDI2bC5qcGc\" name=\"kling_20260408_IMAGE____120_____2971_0.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/Dqea_CZjS6w/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQwOF8xNzc1NjIxNzU4ODA4MDI2bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></div><p><br></p><p><br></p><p><br></p><p><img src=\"https://d3ha2047wt6x28.cloudfront.net/w_nkLBc3PEA/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MzYwNDQxODEzbC5qcGc\" name=\"kling_20260420_作品____________3038_0.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/w_nkLBc3PEA/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MzYwNDQxODEzbC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></p><p><br></p><p><br></p><p><img src=\"https://d3ha2047wt6x28.cloudfront.net/5_4TUrd6bGU/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MzYyNzA0NTk0bC5qcGc\" name=\"kling_20260420_作品____________3022_0.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/5_4TUrd6bGU/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MzYyNzA0NTk0bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></p><p><br></p><p><img src=\"https://d3ha2047wt6x28.cloudfront.net/wOCOvn096mI/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3NDk4NDE4MDM0bC5qcGc\" name=\"kling_20260408_IMAGE____________3010_0.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/wOCOvn096mI/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3NDk4NDE4MDM0bC5qcGc\" style=\"display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;\"><br></p><p><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/UMK3vVCjIU8/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MDU3NzA5NTI4bC5qcGc\" name=\"O1CN018PGuNO1wD5UBtzyAv_!!2216573856273.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/UMK3vVCjIU8/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MDU3NzA5NTI4bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"https://d3ha2047wt6x28.cloudfront.net/_avFWLO29DY/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MTMxNjcxNzA5bC5qcGc\" name=\"ㅇ1.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/_avFWLO29DY/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQyMF8xNzc2NjU3MTMxNjcxNzA5bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br><img src=\"https://d3ha2047wt6x28.cloudfront.net/CkFkEQ64v7I/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQxOV8xNzc2NjA0NDEzOTE4NDg5bC5qcGc\" name=\"20260419_221317.jpg\" id=\"https://d3ha2047wt6x28.cloudfront.net/CkFkEQ64v7I/pr:GOODS_INFORMATION/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2VkaXRvci8yMDI2MDQxOV8xNzc2NjA0NDEzOTE4NDg5bC5qcGc\" style=\"display: block; vertical-align: top; margin: 5px auto; text-align: center;\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p><br></p>\n</div>\n\n\n    \n\n    \n\n    \n        <iframe id=\"product-info-iframe\" src=\"https://m.a-bly.com/goods/66912259/measurement\" frameborder=\"0\" style=\"width: 100%;\" scrolling=\"no\" ></iframe>\n\n    \n\n</body>\n</html>\n",
+    "is_possible_applying_restock_noti": false,
+    "is_limited": false,
+    "is_delayed": false,
+    "is_overseas_delivery": false,
+    "applied_coupon": null,
+    "price_description": null
+  },
+  "today_delivery_order_deadline_time": "10:00:00",
+  "coupon": {
+    "sno": 46453799,
+    "coupon_type": "single",
+    "name": "[더솔티드] 마켓 찜 할인 쿠폰",
+    "title": "500원 할인 쿠폰",
+    "display_title": "최대 500원 할인 쿠폰받기",
+    "description": "20000원이상 300원",
+    "discount_type": "PRICE",
+    "conditions": "20000원이상 300원\n20,000원 이상 구매시 사용 가능",
+    "started_at": "2025-05-27T00:00:00",
+    "extension": {
+      "type": "FAVORITE"
+    },
+    "is_partial_refundable": true,
+    "applicable_type": 2,
+    "is_issued": false,
+    "is_enabled": true,
+    "discount_percent": null,
+    "discount_price": 500,
+    "finished_at": null,
+    "expiration_days": 20,
+    "expiration_minutes": 28800,
+    "expiration_text": "발급 후 20일 이내 사용 가능",
+    "minimum_price": 20000,
+    "discounted_amount": 0,
+    "discount_text": "500원",
+    "platform": null,
+    "max_discount_price": null,
+    "is_app_only": false,
+    "min_goods_quantity": null,
+    "is_limited": true,
+    "is_restricted": true,
+    "goods_segment_expression": "[bool(({market_sno}.intersection(set([31133]))))]",
+    "issuer_type": null,
+    "is_stackable": null,
+    "conditions_with_markup": "20000원이상 300원\n20,000원 이상 구매시 사용 가능"
+  },
+  "is_exist_usable_coupons": true,
+  "review": {
+    "count": 2,
+    "positive_percent": 100
+  },
+  "review_summary": [],
+  "recommend_market_favorite": false,
+  "delivery_info": {
+    "average": 5,
+    "detail": [
+      1,
+      0,
+      9,
+      2,
+      23
+    ],
+    "sent_average": 4,
+    "sent_detail": [
+      1,
+      9,
+      2,
+      66
+    ]
+  },
+  "webview_url": "https://m.a-bly.com/goods/66912259",
+  "send_expected_date": {
+    "date": "5/13(수)",
+    "percentage": 97,
+    "is_over_statistic_max_days": false,
+    "days": 7,
+    "is_market_provided": false,
+    "absolute_delta_days": 12,
+    "expected_date": "2026-05-13"
+  },
+  "standard_delivery_message": "<b>5/13(수) 이내</b> 출발 예정 97%",
+  "is_exist_similar_goods": true,
+  "delivery_information_display": "마켓 직접 무료 배송 (롯데택배)",
+  "delivery_information_icon_url": null,
+  "skin_info": null,
+  "review_tab_url": "https://m.a-bly.com/goods/66912259/reviews/summary?global_layout=web",
+  "size_tab_url": "https://m.a-bly.com/goods/66912259/size?global_layout=web",
+  "inquiry_tab_url": "https://m.a-bly.com/goods/66912259/inquiry?global_layout=web",
+  "ably_pay": {
+    "deeplink": "ably://webview?title_bar=false&app_gesture=false&url=https://m.a-bly.com/ably-pay/account/new?from=goods-detail",
+    "is_registered": false,
+    "registered_image_url": "https://d3ha2047wt6x28.cloudfront.net/HekZQJo8NWM/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2FibHktcGF5L2dvb2RzLWRldGFpbC9nb29kc19yZWdpc3RlcmVkX3YyLmpwZw",
+    "un_registered_image_url": "https://d3ha2047wt6x28.cloudfront.net/LQBcqd8k1as/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2FibHktcGF5L2dvb2RzLWRldGFpbC9nb29kc19iZW5lZml0XzI0MTAxNi5qcGc",
+    "bottom_image_url": "https://d3ha2047wt6x28.cloudfront.net/PbVXKIVlUgc/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2FibHktcGF5L2dvb2RzLWRldGFpbC9nb29kc19ib3R0b21fdjIuanBn",
+    "is_registered_account": false,
+    "benefits": [
+      {
+        "sno": 8,
+        "benefit_type": 2,
+        "details": [
+          {
+            "unit_type": 1,
+            "value": 3000.0,
+            "min_order_amount": 100000
+          },
+          {
+            "unit_type": 1,
+            "value": 2000.0,
+            "min_order_amount": 50000
+          },
+          {
+            "unit_type": 1,
+            "value": 1000.0,
+            "min_order_amount": 30000
+          },
+          {
+            "unit_type": 1,
+            "value": 500.0,
+            "min_order_amount": 20000
+          }
+        ]
+      },
+      {
+        "sno": 7,
+        "benefit_type": 1,
+        "details": [
+          {
+            "unit_type": 2,
+            "value": 1.5,
+            "min_order_amount": 100000
+          },
+          {
+            "unit_type": 2,
+            "value": 1.0,
+            "min_order_amount": 50000
+          },
+          {
+            "unit_type": 2,
+            "value": 0.5,
+            "min_order_amount": 30000
+          },
+          {
+            "unit_type": 2,
+            "value": 0.3,
+            "min_order_amount": 20000
+          }
+        ]
+      }
+    ]
+  },
+  "logging": {
+    "analytics": {
+      "HAS_AWARD": false,
+      "IS_ONLY_ABLY": false,
+      "UPCOMING_SOLDOUT": ""
+    }
+  },
+  "promotion_chip": {
+    "name": "메가세일",
+    "meta": {
+      "name": "메가세일",
+      "text_style": "body6",
+      "text_color": "#9E54FF",
+      "bg_color": "#F6EEFF",
+      "border_color": "#F6EEFF",
+      "border_width": 1,
+      "rounded_corner_radius": 2
+    }
+  },
+  "promotion_name": "메가세일",
+  "chips": [
+    {
+      "meta": {
+        "text_style": "body6",
+        "text_color": "#9E54FF",
+        "bg_color": "#F6EEFF",
+        "border_color": "#F6EEFF",
+        "border_width": 1,
+        "rounded_corner_radius": 2
+      },
+      "name": "메가세일",
+      "type": "DITTO_TEXT"
+    },
+    {
+      "meta": {
+        "text_style": "body6",
+        "text_color": "#FF5160",
+        "bg_color": "#FFEFF2",
+        "border_color": "#FFEFF2",
+        "border_width": 1,
+        "rounded_corner_radius": 2
+      },
+      "name": "중복쿠폰",
+      "type": "DITTO_TEXT"
+    }
+  ],
+  "affiliate": {
+    "expected_reward": 661,
+    "has_extra_reward": false,
+    "deeplink": "ably://webview?url=https%3A%2F%2Fm.a-bly.com%2Faffiliate%2Fevents%2F3a3c7d4a%3Fsnack_bar%3D%EC%B0%B8%EC%97%AC+%ED%9B%84+%EC%83%81%ED%92%88+%EB%A7%81%ED%81%AC%EB%A5%BC+%EA%B3%B5%EC%9C%A0%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94&title_bar=false",
+    "recommend_goods_deeplink": "ably://webview?url=https%3A%2F%2Fm.a-bly.com%2Faffiliate%2Frecommend%2Fgoods&title_bar=false"
+  },
+  "order_entry_type": "DEFAULT"
+}

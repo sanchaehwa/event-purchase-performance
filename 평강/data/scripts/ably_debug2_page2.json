@@ -1,0 +1,2586 @@
+{
+  "title": "아우터",
+  "screen_name": "CATEGORY_DEPARTMENT",
+  "view_event_logging": {},
+  "logging": {
+    "analytics": {
+      "SCREEN": "CATEGORY_DEPARTMENT",
+      "CATEGORY_SNO": "7",
+      "CATEGORY_NAME": "아우터",
+      "FROM": "CLOTHING_CATEGORY_DEPARTMENT"
+    },
+    "ably_only_log": {}
+  },
+  "components": [
+    {
+      "component_id": 128,
+      "type": {
+        "header": null,
+        "item_list": "TWO_COL_CARD_LIST",
+        "footer": null
+      },
+      "logging": {
+        "analytics": {
+          "LIST_ID": "category_list_recommend"
+        },
+        "ably_only_log": {
+          "list_id": "category_list_recommend"
+        }
+      },
+      "entity": {
+        "header": null,
+        "item_list": [
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 67333036,
+                "name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/jFBJVymkYIY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+                "market_sno": 9287,
+                "market_name": "쇼퍼랜드",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 3499,
+                "discount_rate": 15,
+                "first_page_rendering": {
+                  "goods_name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                  "market_name": "쇼퍼랜드",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/iL6Jt6vMunI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+                  "market_image": null,
+                  "discount_rate": 15,
+                  "original_price": 18400,
+                  "price": 15640
+                },
+                "is_new": false,
+                "price": 15640,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 67333036,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 0,
+                    "list_params": "{\"sno\": 67333036, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 0,
+                  "pool": "pop_reco",
+                  "goods_sno": 67333036,
+                  "list_params": "{\"sno\": 67333036, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "67333036",
+                  "GOODS_NAME": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "9287",
+                  "MARKET_NAME": "쇼퍼랜드",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 15,
+                  "SALES_PRICE": 15640,
+                  "SALES_PRICE_RANGE": "15,001~20,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 67333036, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 40,
+                  "REVIEW_COUNT_RANGE": "1~50",
+                  "REVIEW_RATING": 97,
+                  "LIKES_COUNT": 7687,
+                  "LIKES_COUNT_RANGE": "7,651~7,700",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [
+                    10
+                  ],
+                  "EMBLEM_COUNT": 1,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 0
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/jFBJVymkYIY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzBlN2JiZjllM2NjNjRhZjZiMDIyYjAxYzcyMGNkNDZmLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[살안타][여름][여리슬림핏🤍] 모닝 썸머 여리 골지 가디건 (4color)",
+                  "price": "15,640",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "15%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [
+                    {
+                      "image_url": "https://img.a-bly.com/data/goods/emblem/e0752739-8b5c-415d-80f5-06bf6aaf3dfd_1777016282270633405.png"
+                    }
+                  ],
+                  "chips": [],
+                  "store_text": "쇼퍼랜드",
+                  "nudging_text": "3,499개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68213307,
+                "name": "[ 살안타가디건🏖️🤍] 버터모어 - cd",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/s906CjjL7j8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNiODNjYzdmZjU2NDY5ZjQyYTM1ZjZjZDkzMmUwYzVlLmdpZg",
+                "market_sno": 7350,
+                "market_name": "영앤리치",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 18,
+                "discount_rate": 26,
+                "first_page_rendering": {
+                  "goods_name": "[ 살안타가디건🏖️🤍] 버터모어 - cd",
+                  "market_name": "영앤리치",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/qJkC2bvk2pg/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDMwXzE3Nzc1MzI2ODExMDg4ODBtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 26,
+                  "original_price": 34100,
+                  "price": 25200
+                },
+                "is_new": true,
+                "price": 25200,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68213307,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 1,
+                    "list_params": "{\"sno\": 68213307, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 1,
+                  "pool": "late",
+                  "goods_sno": 68213307,
+                  "list_params": "{\"sno\": 68213307, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68213307",
+                  "GOODS_NAME": "[ 살안타가디건🏖️🤍] 버터모어 - cd",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "7350",
+                  "MARKET_NAME": "영앤리치",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 26,
+                  "SALES_PRICE": 25200,
+                  "SALES_PRICE_RANGE": "25,001~30,000",
+                  "IS_NEW": "1",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68213307, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 69,
+                  "LIKES_COUNT_RANGE": "51~100",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 1
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/s906CjjL7j8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNiODNjYzdmZjU2NDY5ZjQyYTM1ZjZjZDkzMmUwYzVlLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[ 살안타가디건🏖️🤍] 버터모어 - cd",
+                  "price": "25,200",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "26%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "영앤리치",
+                  "nudging_text": "18개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 46062454,
+                "name": "[easeas made] New Tencel Cardigan",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/zUXAk3n8-wk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzg1OTYyODI1M2QwMDE5MDM2NTI1NGIwMTUzZjI4ODM5LmdpZg",
+                "market_sno": 32380,
+                "market_name": "이즈이즈",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 5026,
+                "discount_rate": 0,
+                "first_page_rendering": {
+                  "goods_name": "[easeas made] New Tencel Cardigan",
+                  "market_name": "이즈이즈",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7KIsPa8ivqI/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNTA5XzE3NDY3NzgyMjU0MTExOTBtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 0,
+                  "original_price": 35000,
+                  "price": 35000
+                },
+                "is_new": false,
+                "price": 35000,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 46062454,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 2,
+                    "list_params": "{\"sno\": 46062454, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 2,
+                  "pool": "pop_reco",
+                  "goods_sno": 46062454,
+                  "list_params": "{\"sno\": 46062454, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "46062454",
+                  "GOODS_NAME": "[easeas made] New Tencel Cardigan",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "32380",
+                  "MARKET_NAME": "이즈이즈",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 0,
+                  "SALES_PRICE": 35000,
+                  "SALES_PRICE_RANGE": "30,001~35,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 46062454, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 384,
+                  "REVIEW_COUNT_RANGE": "351~400",
+                  "REVIEW_RATING": 96,
+                  "LIKES_COUNT": 17569,
+                  "LIKES_COUNT_RANGE": "17,551~17,600",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 2
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/zUXAk3n8-wk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzg1OTYyODI1M2QwMDE5MDM2NTI1NGIwMTUzZjI4ODM5LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[easeas made] New Tencel Cardigan",
+                  "price": "35,000",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": null,
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "이즈이즈",
+                  "nudging_text": "5,026개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68212384,
+                "name": "[캡내장] 블러셔 발렛무드 쉬폰나시 + 썸머 가디건 set - 2color",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/W6qslUF_X1c/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ViMGMwYTUxMjY2MGViYmEyMjE0MmQ2YzgyZGVkMWY3LmdpZg",
+                "market_sno": 71159,
+                "market_name": "퍼빗",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 13,
+                "discount_rate": 7,
+                "first_page_rendering": {
+                  "goods_name": "[캡내장] 블러셔 발렛무드 쉬폰나시 + 썸머 가디건 set - 2color",
+                  "market_name": "퍼빗",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/alOmlo45NDY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ViMGMwYTUxMjY2MGViYmEyMjE0MmQ2YzgyZGVkMWY3LmdpZg",
+                  "market_image": null,
+                  "discount_rate": 7,
+                  "original_price": 29800,
+                  "price": 27710
+                },
+                "is_new": true,
+                "price": 27710,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68212384,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 3,
+                    "list_params": "{\"sno\": 68212384, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 3,
+                  "pool": "late",
+                  "goods_sno": 68212384,
+                  "list_params": "{\"sno\": 68212384, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68212384",
+                  "GOODS_NAME": "[캡내장] 블러셔 발렛무드 쉬폰나시 + 썸머 가디건 set - 2color",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "71159",
+                  "MARKET_NAME": "퍼빗",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 7,
+                  "SALES_PRICE": 27710,
+                  "SALES_PRICE_RANGE": "25,001~30,000",
+                  "IS_NEW": "1",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68212384, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 35,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 3
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/W6qslUF_X1c/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2ViMGMwYTUxMjY2MGViYmEyMjE0MmQ2YzgyZGVkMWY3LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[캡내장] 블러셔 발렛무드 쉬폰나시 + 썸머 가디건 set - 2color",
+                  "price": "27,710",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "7%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "퍼빗",
+                  "nudging_text": "13개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68185778,
+                "name": "아디다스 오리지널 새틴 폴카 도트 집업 자켓 블랙 KV1166",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/hCj8ZImZWT8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ5MDE1NDIwZWIwY2Y4YjhkNWIxZWUzN2VjY2NmYmNhLnBuZw",
+                "market_sno": 106484,
+                "market_name": "오픈스텝",
+                "market_type": "프리미엄 브랜드",
+                "delivery_type": "standard",
+                "sell_count": 2,
+                "discount_rate": 0,
+                "first_page_rendering": {
+                  "goods_name": "아디다스 오리지널 새틴 폴카 도트 집업 자켓 블랙 KV1166",
+                  "market_name": " 아디다스",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/50fiEIlioCE/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3Nzc0NTI4MDczNzIwMTFtLnBuZw",
+                  "market_image": null,
+                  "discount_rate": 0,
+                  "original_price": 189000,
+                  "price": 189000
+                },
+                "is_new": false,
+                "price": 189000,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68185778,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 4,
+                    "list_params": "{\"sno\": 68185778, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "집업/점퍼",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 4,
+                  "pool": "late",
+                  "goods_sno": 68185778,
+                  "list_params": "{\"sno\": 68185778, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68185778",
+                  "GOODS_NAME": "아디다스 오리지널 새틴 폴카 도트 집업 자켓 블랙 KV1166",
+                  "MARKET_TYPE": "프리미엄 브랜드",
+                  "MARKET_SNO": "106484",
+                  "MARKET_NAME": "오픈스텝",
+                  "CATEGORY_SNO": "294",
+                  "CATEGORY_NAME": "집업/점퍼",
+                  "STANDARD_CATEGORY_SNO": "6",
+                  "STANDARD_CATEGORY_NAME": "집업",
+                  "DISCOUNT_RATE": 0,
+                  "SALES_PRICE": 189000,
+                  "SALES_PRICE_RANGE": "185,001~190,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68185778, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "16",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 14,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 4,
+                  "BRAND_SNO": 562,
+                  "BRAND_NAME": "아디다스"
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/hCj8ZImZWT8/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzQ5MDE1NDIwZWIwY2Y4YjhkNWIxZWUzN2VjY2NmYmNhLnBuZw",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "아디다스 오리지널 새틴 폴카 도트 집업 자켓 블랙 KV1166",
+                  "price": "189,000",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": null,
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "<font color='#6093FC'>브랜드</font> 아디다스",
+                  "nudging_text": null,
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68163278,
+                "name": "민트 도트 스타 레터링 오버핏 후드 집업",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/Z9XQLGNMb0k/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2QzZTNiZTkyZmFkYzM3OTE1ZGE4MDliMGM5NTEwMWMyLmdpZg",
+                "market_sno": 29379,
+                "market_name": "누아브",
+                "market_type": "셀럽",
+                "delivery_type": "standard",
+                "sell_count": 6,
+                "discount_rate": 27,
+                "first_page_rendering": {
+                  "goods_name": "민트 도트 스타 레터링 오버핏 후드 집업",
+                  "market_name": "누아브",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/r7tPQwhDAfY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3NzczOTk4NzkxMzc0OTBtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 27,
+                  "original_price": 35900,
+                  "price": 25900
+                },
+                "is_new": false,
+                "price": 25900,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68163278,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 5,
+                    "list_params": "{\"sno\": 68163278, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "집업/점퍼",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 5,
+                  "pool": "late",
+                  "goods_sno": 68163278,
+                  "list_params": "{\"sno\": 68163278, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68163278",
+                  "GOODS_NAME": "민트 도트 스타 레터링 오버핏 후드 집업",
+                  "MARKET_TYPE": "셀럽",
+                  "MARKET_SNO": "29379",
+                  "MARKET_NAME": "누아브",
+                  "CATEGORY_SNO": "294",
+                  "CATEGORY_NAME": "집업/점퍼",
+                  "STANDARD_CATEGORY_SNO": "6",
+                  "STANDARD_CATEGORY_NAME": "집업",
+                  "DISCOUNT_RATE": 27,
+                  "SALES_PRICE": 25900,
+                  "SALES_PRICE_RANGE": "25,001~30,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68163278, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "7",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 35,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 5
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/Z9XQLGNMb0k/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2QzZTNiZTkyZmFkYzM3OTE1ZGE4MDliMGM5NTEwMWMyLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "민트 도트 스타 레터링 오버핏 후드 집업",
+                  "price": "25,900",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "27%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "누아브",
+                  "nudging_text": "6개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 49736912,
+                "name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/X5q31oXG4xc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNmMmY5MzE1ZjIwY2EyYTQ0MWVkZWVhNGQ2NDBhZWM2LmpwZw",
+                "market_sno": 86502,
+                "market_name": "Closets",
+                "market_type": "셀럽",
+                "delivery_type": "standard",
+                "sell_count": 2186,
+                "discount_rate": 36,
+                "first_page_rendering": {
+                  "goods_name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                  "market_name": "Closets",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/gS8gNUllnX8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzE0XzE3NTI0OTM5NjU5ODIyODltLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 36,
+                  "original_price": 31650,
+                  "price": 19950
+                },
+                "is_new": false,
+                "price": 19950,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 49736912,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 6,
+                    "list_params": "{\"sno\": 49736912, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 6,
+                  "pool": "pop_reco",
+                  "goods_sno": 49736912,
+                  "list_params": "{\"sno\": 49736912, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "49736912",
+                  "GOODS_NAME": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                  "MARKET_TYPE": "셀럽",
+                  "MARKET_SNO": "86502",
+                  "MARKET_NAME": "Closets",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 36,
+                  "SALES_PRICE": 19950,
+                  "SALES_PRICE_RANGE": "15,001~20,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 49736912, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "7",
+                  "REVIEW_COUNT": 97,
+                  "REVIEW_COUNT_RANGE": "51~100",
+                  "REVIEW_RATING": 91,
+                  "LIKES_COUNT": 9206,
+                  "LIKES_COUNT_RANGE": "9,201~9,250",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 6
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/X5q31oXG4xc/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzNmMmY5MzE1ZjIwY2EyYTQ0MWVkZWVhNGQ2NDBhZWM2LmpwZw",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "Hina Tencel Long Cardigan 히나 텐셀 롱 가디건",
+                  "price": "19,950",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "36%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "Closets",
+                  "nudging_text": "2,186개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 66861540,
+                "name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/MkNb-Q-MT4g/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+                "market_sno": 97862,
+                "market_name": "바이유어리",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 2307,
+                "discount_rate": 15,
+                "first_page_rendering": {
+                  "goods_name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                  "market_name": "바이유어리",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/DdhkXwFfB-0/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+                  "market_image": null,
+                  "discount_rate": 15,
+                  "original_price": 25900,
+                  "price": 22010
+                },
+                "is_new": false,
+                "price": 22010,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 66861540,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 7,
+                    "list_params": "{\"sno\": 66861540, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 7,
+                  "pool": "pop_reco",
+                  "goods_sno": 66861540,
+                  "list_params": "{\"sno\": 66861540, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "66861540",
+                  "GOODS_NAME": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "97862",
+                  "MARKET_NAME": "바이유어리",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 15,
+                  "SALES_PRICE": 22010,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 66861540, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 11,
+                  "REVIEW_COUNT_RANGE": "1~50",
+                  "REVIEW_RATING": 100,
+                  "LIKES_COUNT": 4897,
+                  "LIKES_COUNT_RANGE": "4,851~4,900",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 7
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/MkNb-Q-MT4g/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2FlZGVkZDBkNjkxY2JlYjYxNGM5YTA4YjY0YmFlZTY0LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[ 팔뚝커버✂️군살삭제 ] 코지 버튼 골지 가디건 여름 아우터 살안타 살안타템 얇은긴팔 - 7colors",
+                  "price": "22,010",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "15%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "바이유어리",
+                  "nudging_text": "2,307개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 66567055,
+                "name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/8WakWP2G3hk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFjZjA2YTU5YjBkOTI3NzgyMWM2ZTYxMGUzYTVlMmYzLmpwZw",
+                "market_sno": 113640,
+                "market_name": "닉켈하우스",
+                "market_type": "캐주얼 브랜드",
+                "delivery_type": "standard",
+                "sell_count": 2268,
+                "discount_rate": 16,
+                "first_page_rendering": {
+                  "goods_name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                  "market_name": " 닉켈하우스",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Moj_L-Sk1EA/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDAzXzE3NzUyMTIwNjk0OTMyNTNtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 16,
+                  "original_price": 109000,
+                  "price": 91500
+                },
+                "is_new": false,
+                "price": 91500,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 66567055,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 8,
+                    "list_params": "{\"sno\": 66567055, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "집업/점퍼",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 8,
+                  "pool": "pop_reco",
+                  "goods_sno": 66567055,
+                  "list_params": "{\"sno\": 66567055, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "66567055",
+                  "GOODS_NAME": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                  "MARKET_TYPE": "캐주얼 브랜드",
+                  "MARKET_SNO": "113640",
+                  "MARKET_NAME": "닉켈하우스",
+                  "CATEGORY_SNO": "294",
+                  "CATEGORY_NAME": "집업/점퍼",
+                  "STANDARD_CATEGORY_SNO": "6",
+                  "STANDARD_CATEGORY_NAME": "집업",
+                  "DISCOUNT_RATE": 16,
+                  "SALES_PRICE": 91500,
+                  "SALES_PRICE_RANGE": "90,001~95,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 66567055, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "12",
+                  "REVIEW_COUNT": 28,
+                  "REVIEW_COUNT_RANGE": "1~50",
+                  "REVIEW_RATING": 100,
+                  "LIKES_COUNT": 16556,
+                  "LIKES_COUNT_RANGE": "16,551~16,600",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 8,
+                  "BRAND_SNO": 16667,
+                  "BRAND_NAME": "닉켈하우스"
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/8WakWP2G3hk/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFjZjA2YTU5YjBkOTI3NzgyMWM2ZTYxMGUzYTVlMmYzLmpwZw",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[네이비 컬러 5월 11일 예약배송][정품] NICKEL 26 DONKEY ZIP_UP",
+                  "price": "91,500",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "16%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "<font color='#6093FC'>브랜드</font> 닉켈하우스",
+                  "nudging_text": "2,268개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68212416,
+                "name": "[P.B MADE]  바닐라 레이스 무드 펀칭 슬리브리스 + 가디건 set - 3color",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/s2FHhnjC6MQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzkxZDRiOTI2NDM2N2QxOTZhYTFhNTc3ZmE5ODAyOTVlLmdpZg",
+                "market_sno": 71159,
+                "market_name": "퍼빗",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 9,
+                "discount_rate": 7,
+                "first_page_rendering": {
+                  "goods_name": "[P.B MADE]  바닐라 레이스 무드 펀칭 슬리브리스 + 가디건 set - 3color",
+                  "market_name": "퍼빗",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/VcchElE18_Y/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzkxZDRiOTI2NDM2N2QxOTZhYTFhNTc3ZmE5ODAyOTVlLmdpZg",
+                  "market_image": null,
+                  "discount_rate": 7,
+                  "original_price": 52800,
+                  "price": 49100
+                },
+                "is_new": true,
+                "price": 49100,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68212416,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 9,
+                    "list_params": "{\"sno\": 68212416, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 9,
+                  "pool": "late",
+                  "goods_sno": 68212416,
+                  "list_params": "{\"sno\": 68212416, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68212416",
+                  "GOODS_NAME": "[P.B MADE]  바닐라 레이스 무드 펀칭 슬리브리스 + 가디건 set - 3color",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "71159",
+                  "MARKET_NAME": "퍼빗",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 7,
+                  "SALES_PRICE": 49100,
+                  "SALES_PRICE_RANGE": "45,001~50,000",
+                  "IS_NEW": "1",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68212416, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 23,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 9
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/s2FHhnjC6MQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzkxZDRiOTI2NDM2N2QxOTZhYTFhNTc3ZmE5ODAyOTVlLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[P.B MADE]  바닐라 레이스 무드 펀칭 슬리브리스 + 가디건 set - 3color",
+                  "price": "49,100",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "7%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "퍼빗",
+                  "nudging_text": "9개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 48773086,
+                "name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/4gT8WI4uEXg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YyZjJhM2QxYWJjNjRkMDRmYjk0NDViMGFhYWY3ZGYxLmdpZg",
+                "market_sno": 2466,
+                "market_name": "앤드모어",
+                "market_type": "셀럽",
+                "delivery_type": "shak",
+                "sell_count": 21339,
+                "discount_rate": 20,
+                "first_page_rendering": {
+                  "goods_name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                  "market_name": "앤드모어",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/7sOgzAu8dkM/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjUwNzA0XzE3NTE1NTY0MjEyMDg5NjltLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 20,
+                  "original_price": 26900,
+                  "price": 21500
+                },
+                "is_new": false,
+                "price": 21500,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 48773086,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 10,
+                    "list_params": "{\"sno\": 48773086, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 10,
+                  "pool": "pop_reco",
+                  "goods_sno": 48773086,
+                  "list_params": "{\"sno\": 48773086, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "48773086",
+                  "GOODS_NAME": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                  "MARKET_TYPE": "셀럽",
+                  "MARKET_SNO": "2466",
+                  "MARKET_NAME": "앤드모어",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 20,
+                  "SALES_PRICE": 21500,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "shak",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 48773086, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "7",
+                  "REVIEW_COUNT": 2561,
+                  "REVIEW_COUNT_RANGE": "2,551~2,600",
+                  "REVIEW_RATING": 95,
+                  "LIKES_COUNT": 47878,
+                  "LIKES_COUNT_RANGE": "47,851~47,900",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [
+                    "TODAY_DELIVERY"
+                  ],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 10
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/4gT8WI4uEXg/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2YyZjJhM2QxYWJjNjRkMDRmYjk0NDViMGFhYWY3ZGYxLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[여리여리~/여름필수템☀️] 가볍게 툭 걸치기 좋은, 린넨 썸머 골지 시스루 라운드 크롭 니트 긴팔가디건 (5color)",
+                  "price": "21,500",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "20%",
+                  "closed_reason": null,
+                  "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                  "image_badge_width": 46,
+                  "image_badge_height": 18,
+                  "image_badge_list": [
+                    {
+                      "type": "TODAY_DELIVERY",
+                      "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                      "image_width": 46,
+                      "image_height": 18
+                    }
+                  ],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "앤드모어",
+                  "nudging_text": "21,339개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68212401,
+                "name": "[P.B MADE] 로드 여리셔링 슬리브리스 + 가디건 set - 3color",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/8sv6yUmVv34/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU1MTYzNTZkZjJkNDNmMGQ3Y2ZjZTM3MDYxMTI3ZThiLmdpZg",
+                "market_sno": 71159,
+                "market_name": "퍼빗",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 8,
+                "discount_rate": 7,
+                "first_page_rendering": {
+                  "goods_name": "[P.B MADE] 로드 여리셔링 슬리브리스 + 가디건 set - 3color",
+                  "market_name": "퍼빗",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/ueZDCowlAC8/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU1MTYzNTZkZjJkNDNmMGQ3Y2ZjZTM3MDYxMTI3ZThiLmdpZg",
+                  "market_image": null,
+                  "discount_rate": 7,
+                  "original_price": 37000,
+                  "price": 34410
+                },
+                "is_new": true,
+                "price": 34410,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68212401,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 11,
+                    "list_params": "{\"sno\": 68212401, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 11,
+                  "pool": "late",
+                  "goods_sno": 68212401,
+                  "list_params": "{\"sno\": 68212401, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68212401",
+                  "GOODS_NAME": "[P.B MADE] 로드 여리셔링 슬리브리스 + 가디건 set - 3color",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "71159",
+                  "MARKET_NAME": "퍼빗",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 7,
+                  "SALES_PRICE": 34410,
+                  "SALES_PRICE_RANGE": "30,001~35,000",
+                  "IS_NEW": "1",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68212401, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 28,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 11
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/8sv6yUmVv34/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzU1MTYzNTZkZjJkNDNmMGQ3Y2ZjZTM3MDYxMTI3ZThiLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[P.B MADE] 로드 여리셔링 슬리브리스 + 가디건 set - 3color",
+                  "price": "34,410",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "7%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "퍼빗",
+                  "nudging_text": "8개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68142084,
+                "name": "레이온 크랍 가디건  화이트 (35645ACM51) 여성",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/XRbWSqfp4tQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q5M2EzNTgyZGZhYTJmNGU3YTFiOWEyZGVmYjc4NzZhLmpwZw",
+                "market_sno": 22143,
+                "market_name": "에잇세컨즈",
+                "market_type": "SPA 브랜드",
+                "delivery_type": "standard",
+                "sell_count": 10,
+                "discount_rate": 0,
+                "first_page_rendering": {
+                  "goods_name": "레이온 크랍 가디건  화이트 (35645ACM51) 여성",
+                  "market_name": " 에잇세컨즈",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/SQqUsQSIiJM/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI4XzE3NzczNzIwNDAwMjk1ODNtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 0,
+                  "original_price": 34900,
+                  "price": 34900
+                },
+                "is_new": false,
+                "price": 34900,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68142084,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 12,
+                    "list_params": "{\"sno\": 68142084, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 12,
+                  "pool": "late",
+                  "goods_sno": 68142084,
+                  "list_params": "{\"sno\": 68142084, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68142084",
+                  "GOODS_NAME": "레이온 크랍 가디건  화이트 (35645ACM51) 여성",
+                  "MARKET_TYPE": "SPA 브랜드",
+                  "MARKET_SNO": "22143",
+                  "MARKET_NAME": "에잇세컨즈",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 0,
+                  "SALES_PRICE": 34900,
+                  "SALES_PRICE_RANGE": "30,001~35,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68142084, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "13",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 11,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 12
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/XRbWSqfp4tQ/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2Q5M2EzNTgyZGZhYTJmNGU3YTFiOWEyZGVmYjc4NzZhLmpwZw",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "레이온 크랍 가디건  화이트 (35645ACM51) 여성",
+                  "price": "34,900",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": null,
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "<font color='#6093FC'>브랜드</font> 에잇세컨즈",
+                  "nudging_text": "10개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 67604833,
+                "name": "아디다스 여성 키즈 솔로 트레포일 파이어버드 자켓 2컬러",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/hB58bklkynY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzczMDliOWNmMzNkNGM5ODc2NzBiMmU1NTliOWRkN2Y4LmdpZg",
+                "market_sno": 86860,
+                "market_name": "유어엘에이",
+                "market_type": "프리미엄 브랜드",
+                "delivery_type": "standard",
+                "sell_count": 175,
+                "discount_rate": 18,
+                "first_page_rendering": {
+                  "goods_name": "아디다스 여성 키즈 솔로 트레포일 파이어버드 자켓 2컬러",
+                  "market_name": " 아디다스",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/1EszV82nUeE/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDIyXzE3NzY4NDQ3NDE2MDc4ODFtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 18,
+                  "original_price": 122000,
+                  "price": 99900
+                },
+                "is_new": false,
+                "price": 99900,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 67604833,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 13,
+                    "list_params": "{\"sno\": 67604833, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "집업/점퍼",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 13,
+                  "pool": "pop_reco",
+                  "goods_sno": 67604833,
+                  "list_params": "{\"sno\": 67604833, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "67604833",
+                  "GOODS_NAME": "아디다스 여성 키즈 솔로 트레포일 파이어버드 자켓 2컬러",
+                  "MARKET_TYPE": "프리미엄 브랜드",
+                  "MARKET_SNO": "86860",
+                  "MARKET_NAME": "유어엘에이",
+                  "CATEGORY_SNO": "294",
+                  "CATEGORY_NAME": "집업/점퍼",
+                  "STANDARD_CATEGORY_SNO": "6",
+                  "STANDARD_CATEGORY_NAME": "집업",
+                  "DISCOUNT_RATE": 18,
+                  "SALES_PRICE": 99900,
+                  "SALES_PRICE_RANGE": "95,001~100,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 67604833, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "16",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 1120,
+                  "LIKES_COUNT_RANGE": "1,101~1,150",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 13,
+                  "BRAND_SNO": 562,
+                  "BRAND_NAME": "아디다스"
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/hB58bklkynY/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzczMDliOWNmMzNkNGM5ODc2NzBiMmU1NTliOWRkN2Y4LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "아디다스 여성 키즈 솔로 트레포일 파이어버드 자켓 2컬러",
+                  "price": "99,900",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "18%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "<font color='#6093FC'>브랜드</font> 아디다스",
+                  "nudging_text": "175개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 22439813,
+                "name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/sfoDcCQi1B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjY4MDE1NzltLnBuZw",
+                "market_sno": 34926,
+                "market_name": "아모로소",
+                "market_type": "셀럽",
+                "delivery_type": "today",
+                "sell_count": 37506,
+                "discount_rate": 17,
+                "first_page_rendering": {
+                  "goods_name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                  "market_name": "아모로소",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/Y9kZISSIlxY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjcwOTg3ODhtLnBuZw",
+                  "market_image": null,
+                  "discount_rate": 17,
+                  "original_price": 28000,
+                  "price": 23150
+                },
+                "is_new": false,
+                "price": 23150,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 22439813,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 14,
+                    "list_params": "{\"sno\": 22439813, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 14,
+                  "pool": "pop_reco",
+                  "goods_sno": 22439813,
+                  "list_params": "{\"sno\": 22439813, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "22439813",
+                  "GOODS_NAME": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                  "MARKET_TYPE": "셀럽",
+                  "MARKET_SNO": "34926",
+                  "MARKET_NAME": "아모로소",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 17,
+                  "SALES_PRICE": 23150,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "today",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 22439813, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "7",
+                  "REVIEW_COUNT": 4848,
+                  "REVIEW_COUNT_RANGE": "4,801~4,850",
+                  "REVIEW_RATING": 96,
+                  "LIKES_COUNT": 94190,
+                  "LIKES_COUNT_RANGE": "94,151~94,200",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [
+                    "TODAY_DELIVERY"
+                  ],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 14
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/sfoDcCQi1B0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwMzI2XzE3NzQ0OTkyNjY4MDE1NzltLnBuZw",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "NEW컬러✨[간절기/살안타템☀️] 릴리 여름 골지 라운드 긴팔 가디건 (6color)",
+                  "price": "23,150",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "17%",
+                  "closed_reason": null,
+                  "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                  "image_badge_width": 46,
+                  "image_badge_height": 18,
+                  "image_badge_list": [
+                    {
+                      "type": "TODAY_DELIVERY",
+                      "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                      "image_width": 46,
+                      "image_height": 18
+                    }
+                  ],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "아모로소",
+                  "nudging_text": "37,506개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68121034,
+                "name": "[ 살안타템/ 2사이즈 ] 미스티 여름 데일리 골지 크롭 니트 긴팔 가디건",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/tQoHg6FZrj0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2RmZjllZTI2YWZiZTQ5MzFlNmI1Mjc0YmJlMjg3MGQ4LmdpZg",
+                "market_sno": 8733,
+                "market_name": "블러핏",
+                "market_type": "셀럽",
+                "delivery_type": "standard",
+                "sell_count": 23,
+                "discount_rate": 16,
+                "first_page_rendering": {
+                  "goods_name": "[ 살안타템/ 2사이즈 ] 미스티 여름 데일리 골지 크롭 니트 긴팔 가디건",
+                  "market_name": "블러핏",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/VqH_b97LB-4/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI4XzE3NzczNTU5MTYxNjAxOTBtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 16,
+                  "original_price": 29800,
+                  "price": 24800
+                },
+                "is_new": false,
+                "price": 24800,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68121034,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 15,
+                    "list_params": "{\"sno\": 68121034, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 15,
+                  "pool": "late",
+                  "goods_sno": 68121034,
+                  "list_params": "{\"sno\": 68121034, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68121034",
+                  "GOODS_NAME": "[ 살안타템/ 2사이즈 ] 미스티 여름 데일리 골지 크롭 니트 긴팔 가디건",
+                  "MARKET_TYPE": "셀럽",
+                  "MARKET_SNO": "8733",
+                  "MARKET_NAME": "블러핏",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 16,
+                  "SALES_PRICE": 24800,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68121034, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "7",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 46,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 15
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/tQoHg6FZrj0/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2RmZjllZTI2YWZiZTQ5MzFlNmI1Mjc0YmJlMjg3MGQ4LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[ 살안타템/ 2사이즈 ] 미스티 여름 데일리 골지 크롭 니트 긴팔 가디건",
+                  "price": "24,800",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "16%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "블러핏",
+                  "nudging_text": "23개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68132304,
+                "name": "[데이빈m🫐/국내제작] 리베 코튼 린넨 클램 cd",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/RM15pMaxQh4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzAzZDcwY2U2OGVjM2Q0MWQ0ZjlmYmY3NWJhYzYyMjk3LmdpZg",
+                "market_sno": 37801,
+                "market_name": "데이빈",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 6,
+                "discount_rate": 7,
+                "first_page_rendering": {
+                  "goods_name": "[데이빈m🫐/국내제작] 리베 코튼 린넨 클램 cd",
+                  "market_name": "데이빈",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/doPYuwBz000/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzAzZDcwY2U2OGVjM2Q0MWQ0ZjlmYmY3NWJhYzYyMjk3LmdpZg",
+                  "market_image": null,
+                  "discount_rate": 7,
+                  "original_price": 32240,
+                  "price": 29980
+                },
+                "is_new": false,
+                "price": 29980,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68132304,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 16,
+                    "list_params": "{\"sno\": 68132304, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 16,
+                  "pool": "late",
+                  "goods_sno": 68132304,
+                  "list_params": "{\"sno\": 68132304, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68132304",
+                  "GOODS_NAME": "[데이빈m🫐/국내제작] 리베 코튼 린넨 클램 cd",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "37801",
+                  "MARKET_NAME": "데이빈",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 7,
+                  "SALES_PRICE": 29980,
+                  "SALES_PRICE_RANGE": "25,001~30,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68132304, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 17,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 16
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/RM15pMaxQh4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzAzZDcwY2U2OGVjM2Q0MWQ0ZjlmYmY3NWJhYzYyMjk3LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[데이빈m🫐/국내제작] 리베 코튼 린넨 클램 cd",
+                  "price": "29,980",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "7%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "데이빈",
+                  "nudging_text": "6개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 20857023,
+                "name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/8U8oSEsWtU4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzhmZjI4MjEwNWY3YTM0MjAwMWRjODJmODdmNGY4ZDZlLmdpZg",
+                "market_sno": 9287,
+                "market_name": "쇼퍼랜드",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 7833,
+                "discount_rate": 10,
+                "first_page_rendering": {
+                  "goods_name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                  "market_name": "쇼퍼랜드",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/RoHqtUXI4iQ/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI5XzE3Nzc0NDExNjcwODc4NjltLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 10,
+                  "original_price": 23100,
+                  "price": 20790
+                },
+                "is_new": false,
+                "price": 20790,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 20857023,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 17,
+                    "list_params": "{\"sno\": 20857023, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 17,
+                  "pool": "pop_reco",
+                  "goods_sno": 20857023,
+                  "list_params": "{\"sno\": 20857023, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "20857023",
+                  "GOODS_NAME": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "9287",
+                  "MARKET_NAME": "쇼퍼랜드",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 10,
+                  "SALES_PRICE": 20790,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 20857023, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 1099,
+                  "REVIEW_COUNT_RANGE": "1,051~1,100",
+                  "REVIEW_RATING": 94,
+                  "LIKES_COUNT": 22279,
+                  "LIKES_COUNT_RANGE": "22,251~22,300",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 17
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/8U8oSEsWtU4/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzhmZjI4MjEwNWY3YTM0MjAwMWRjODJmODdmNGY4ZDZlLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[3만장돌파][여름][살안타] 썸머 루즈핏 비스코스 슬라브 브이넥 가디건 (11color)",
+                  "price": "20,790",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "10%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "쇼퍼랜드",
+                  "nudging_text": "7,833개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 67726639,
+                "name": "[살안타템/썸머가디건🤍] 이젤 여리핏 골지 라운드 긴팔 니트가디건 - 7color",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/gV-RQJlS-iM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFkNzBjYmQ3MmM1YTdkYjBlZDg2YjE2NDJjMjRkNTdkLmdpZg",
+                "market_sno": 2083,
+                "market_name": "슈가파우더",
+                "market_type": "쇼핑몰",
+                "delivery_type": "today",
+                "sell_count": 200,
+                "discount_rate": 42,
+                "first_page_rendering": {
+                  "goods_name": "[살안타템/썸머가디건🤍] 이젤 여리핏 골지 라운드 긴팔 니트가디건 - 7color",
+                  "market_name": "슈가파우더",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/KQNONqjQlKY/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzIwMjYwNDI0XzE3NzY5NjIwMDMzMTQ2ODFtLmpwZw",
+                  "market_image": null,
+                  "discount_rate": 42,
+                  "original_price": 38900,
+                  "price": 22220
+                },
+                "is_new": false,
+                "price": 22220,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 67726639,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 18,
+                    "list_params": "{\"sno\": 67726639, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "가디건",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 18,
+                  "pool": "pop_reco",
+                  "goods_sno": 67726639,
+                  "list_params": "{\"sno\": 67726639, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "67726639",
+                  "GOODS_NAME": "[살안타템/썸머가디건🤍] 이젤 여리핏 골지 라운드 긴팔 니트가디건 - 7color",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "2083",
+                  "MARKET_NAME": "슈가파우더",
+                  "CATEGORY_SNO": "16",
+                  "CATEGORY_NAME": "가디건",
+                  "STANDARD_CATEGORY_SNO": "3",
+                  "STANDARD_CATEGORY_NAME": "가디건",
+                  "DISCOUNT_RATE": 42,
+                  "SALES_PRICE": 22220,
+                  "SALES_PRICE_RANGE": "20,001~25,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "today",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 67726639, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 1,
+                  "REVIEW_COUNT_RANGE": "1~50",
+                  "REVIEW_RATING": 100,
+                  "LIKES_COUNT": 563,
+                  "LIKES_COUNT_RANGE": "551~600",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [
+                    "TODAY_DELIVERY"
+                  ],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 18
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/gV-RQJlS-iM/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzLzFkNzBjYmQ3MmM1YTdkYjBlZDg2YjE2NDJjMjRkNTdkLmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[살안타템/썸머가디건🤍] 이젤 여리핏 골지 라운드 긴팔 니트가디건 - 7color",
+                  "price": "22,220",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "42%",
+                  "closed_reason": null,
+                  "image_badge": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                  "image_badge_width": 46,
+                  "image_badge_height": 18,
+                  "image_badge_list": [
+                    {
+                      "type": "TODAY_DELIVERY",
+                      "image_url": "https://d3ha2047wt6x28.cloudfront.net/ed29a9GcSUo/pr:CONVERT_TO_WEBP/czM6Ly9pbWcuYS1ibHkuY29tL2RhdGEvZ29vZHMvYmFkZ2UvYmFkZ2VfdG9kYXlfZGVsaXZlcnkucG5n",
+                      "image_width": 46,
+                      "image_height": 18
+                    }
+                  ],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "슈가파우더",
+                  "nudging_text": "200개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          },
+          {
+            "type": "GOODS_CARD",
+            "item_entity": {
+              "item": {
+                "sno": 68187127,
+                "name": "[UNISEX/소장추천!]루즈 박시 오버 빈티지 힙 넘버 프린팅 포인트 썸머 니트 후드 집업(3color)",
+                "image": "https://d3ha2047wt6x28.cloudfront.net/84HAP8iV_24/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UyNzJkNTM5ZDBiODVmY2I2MmE4ODZiM2IyYThhZDk5LmdpZg",
+                "market_sno": 35164,
+                "market_name": "키미스",
+                "market_type": "쇼핑몰",
+                "delivery_type": "standard",
+                "sell_count": 6,
+                "discount_rate": 3,
+                "first_page_rendering": {
+                  "goods_name": "[UNISEX/소장추천!]루즈 박시 오버 빈티지 힙 넘버 프린팅 포인트 썸머 니트 후드 집업(3color)",
+                  "market_name": "키미스",
+                  "cover_image": "https://d3ha2047wt6x28.cloudfront.net/NS_zZa-iGSw/pr:GOODS_DETAIL/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UyNzJkNTM5ZDBiODVmY2I2MmE4ODZiM2IyYThhZDk5LmdpZg",
+                  "market_image": null,
+                  "discount_rate": 3,
+                  "original_price": 49300,
+                  "price": 47820
+                },
+                "is_new": false,
+                "price": 47820,
+                "expected_reward": null,
+                "like": {
+                  "goods_sno": 68187127,
+                  "is_liked": false,
+                  "folder_sno": null,
+                  "referrer": {
+                    "list_id": "category_list_recommend",
+                    "list_index": 19,
+                    "list_params": "{\"sno\": 68187127, \"filter\": {\"display_category_sno\": 7}}"
+                  }
+                },
+                "ad": null,
+                "on_return": null,
+                "category_name": "집업/점퍼",
+                "feedback_type": null,
+                "remote_deeplink": null
+              },
+              "logging": {
+                "ably_only_log": {
+                  "schema_name": "Goods",
+                  "list_id": "category_list_recommend",
+                  "list_index": 19,
+                  "pool": "late",
+                  "goods_sno": 68187127,
+                  "list_params": "{\"sno\": 68187127, \"filter\": {\"display_category_sno\": 7}}"
+                },
+                "analytics": {
+                  "GOODS_SNO": "68187127",
+                  "GOODS_NAME": "[UNISEX/소장추천!]루즈 박시 오버 빈티지 힙 넘버 프린팅 포인트 썸머 니트 후드 집업(3color)",
+                  "MARKET_TYPE": "쇼핑몰",
+                  "MARKET_SNO": "35164",
+                  "MARKET_NAME": "키미스",
+                  "CATEGORY_SNO": "294",
+                  "CATEGORY_NAME": "집업/점퍼",
+                  "STANDARD_CATEGORY_SNO": "6",
+                  "STANDARD_CATEGORY_NAME": "집업",
+                  "DISCOUNT_RATE": 3,
+                  "SALES_PRICE": 47820,
+                  "SALES_PRICE_RANGE": "45,001~50,000",
+                  "IS_NEW": "0",
+                  "DELIVERY_TYPE": "standard",
+                  "IS_AD": "0",
+                  "LIST_PARAMS": "{\"sno\": 68187127, \"filter\": {\"display_category_sno\": 7}}",
+                  "MARKET_TYPE_SNO": "8",
+                  "REVIEW_COUNT": 0,
+                  "REVIEW_COUNT_RANGE": "0",
+                  "REVIEW_RATING": 0,
+                  "LIKES_COUNT": 18,
+                  "LIKES_COUNT_RANGE": "1~50",
+                  "PROMOTION_TAG": [],
+                  "HAS_AWARD": false,
+                  "IS_ONLY_ABLY": false,
+                  "IMAGE_BADGE_LIST": [],
+                  "EMBLEM_SNO": [],
+                  "EMBLEM_COUNT": 0,
+                  "IS_BLACK_FRIDAY": true,
+                  "LIST_ID": "category_list_recommend",
+                  "LIST_INDEX": 19
+                }
+              },
+              "render": {
+                "contents": [
+                  "PRICE",
+                  "NAME",
+                  "STORE",
+                  "NUDGING",
+                  "CHIPS"
+                ],
+                "size": "MEDIUM",
+                "data": {
+                  "image": {
+                    "url": "https://d3ha2047wt6x28.cloudfront.net/84HAP8iV_24/pr:NEW_GOODS_THUMB_WEBP/czM6Ly9hYmx5LWltYWdlLWxlZ2FjeS9kYXRhL2dvb2RzL2UyNzJkNTM5ZDBiODVmY2I2MmE4ODZiM2IyYThhZDk5LmdpZg",
+                    "use_animation": true,
+                    "ratio": 1.2
+                  },
+                  "name": "[UNISEX/소장추천!]루즈 박시 오버 빈티지 힙 넘버 프린팅 포인트 썸머 니트 후드 집업(3color)",
+                  "price": "47,820",
+                  "has_ad_badge": false,
+                  "name_lines": 1,
+                  "discount_rate": "3%",
+                  "closed_reason": null,
+                  "image_badge": null,
+                  "image_badge_width": null,
+                  "image_badge_height": null,
+                  "image_badge_list": [],
+                  "emblems": [],
+                  "chips": [],
+                  "store_text": "키미스",
+                  "nudging_text": "6개 구매중",
+                  "ranking": null,
+                  "actions": [
+                    "LIKE"
+                  ],
+                  "discount_end_text": null,
+                  "top_nudging_text": null,
+                  "price_description": null,
+                  "today_delivery_order_deadline_time": null
+                }
+              }
+            }
+          }
+        ],
+        "footer": null
+      }
+    }
+  ],
+  "next_token": "eyJsIjogIkRlcGFydG1lbnRDYXRlZ29yeVJlYWx0aW1lUmFua0dlbmVyYXRvciIsICJuIjogImV5SnNZWE4wWDNOdWJ5STZJRFk0TVRnM01USTNMQ0FpYkdGemRGOXBibVJsZUNJNklESXdmUT09IiwgInAiOiB7ImRlcGFydG1lbnRfdHlwZSI6ICJDQVRFR09SWSIsICJjYXRlZ29yeV9zbm8iOiA3fSwgImQiOiAiQ0FURUdPUlkiLCAibGkiOiAyLCAiY2F0ZWdvcnlfc25vIjogNywgInByZXZpb3VzX3NjcmVlbl9uYW1lIjogIkNMT1RISU5HX0NBVEVHT1JZX0RFUEFSVE1FTlQiLCAibG9hZF9nb29kcyI6IGZhbHNlfQ==",
+  "should_defer_view_event": false,
+  "view_event_channels": [
+    "firebase",
+    "amplitude",
+    "braze",
+    "ablylog",
+    "facebook",
+    "appsflyer"
+  ]
+}

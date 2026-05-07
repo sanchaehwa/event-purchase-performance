@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: perf_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: shopdb
+    ports:
+      - "3308:3306"
+    volumes:
+      - ./init/mysql_init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --innodb-buffer-pool-size=256M
+
+  mariadb:
+    image: mariadb:10.11
+    container_name: perf_mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: shopdb
+    ports:
+      - "3309:3306"
+    volumes:
+      - ./init/mysql_init.sql:/docker-entrypoint-initdb.d/init.sql
+    command: --innodb-buffer-pool-size=256M
+
+  postgres:
+    image: postgres:15
+    container_name: perf_postgres
+    environment:
+      POSTGRES_PASSWORD: root1234
+      POSTGRES_DB: shopdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./init/postgres_init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  mongodb:
+    image: mongo:6.0
+    container_name: perf_mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: shopdb
+    command: ["--replSet", "rs0", "--bind_ip_all"]
