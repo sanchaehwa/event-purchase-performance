@@ -1,0 +1,6 @@
+﻿query,iterations,avg_ms,p95_ms,min_ms,max_ms
+brand_exact,1000,0.0385,0.048,0.0334,0.1655
+category_exact,1000,0.054,0.09,0.0358,0.3064
+price_range,1000,0.0967,0.1737,0.035,0.4828
+name_keyword,1000,3.5477,4.7106,0.1953,6.424
+price_order_page,1000,0.245,0.3663,0.094,0.8422
