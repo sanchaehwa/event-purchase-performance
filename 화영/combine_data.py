@@ -5,12 +5,15 @@ ably_path = "/Users/yanghwayeong/Desktop/system-design-interview-study/data/ably
 musinsa_path = "/Users/yanghwayeong/Desktop/system-design-interview-study/data/musinsa_data.csv"
 zigzag_path = "/Users/yanghwayeong/Desktop/system-design-interview-study/data/zigzag_data.csv"
 cm29_path = "/Users/yanghwayeong/Desktop/system-design-interview-study/data/29cm_data.csv"
+kream_path = "/Users/yanghwayeong/Desktop/system-design-interview-study/data/kream_data.csv"
+
 
 # CSV 읽기
 df_ably = pd.read_csv(ably_path)
 df_musinsa = pd.read_csv(musinsa_path)
 df_zigzag = pd.read_csv(zigzag_path)
 df_29cm = pd.read_csv(cm29_path)
+df_kream = pd.read_csv(kream_path)
 
 # 하나로 합치기
 merged_df = pd.concat(
@@ -18,7 +21,8 @@ merged_df = pd.concat(
         df_ably,
         df_musinsa,
         df_zigzag,
-        df_29cm
+        df_29cm,
+        df_kream
     ],
     ignore_index=True
 )
